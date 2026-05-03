@@ -451,6 +451,24 @@ Icon: https://axs66.github.io/pro/icon/dy.png
 Name: AwemePro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/awemepro/js.json
 
+Package: com.axs.controlcentre
+Version: 5.2.0-26
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 472
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/axs.controlcentre_5.2.0-26-arm64.deb
+Size: 51782
+MD5sum: e8a84c61f1f8279c4d9e7f16640ceb65
+SHA1: 783261f0bb028b5424fbc36bced62f030b8f94eb
+SHA256: 188c76f2533283bc9ba55e3dfbbbffdca5969581fd65c999ec4e8180e82a7859
+Section: Tweaks
+Description: 一个简单的控制中心美化插件.
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/controlcentre.png
+Name: ControlCentre
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/controlcentre/js.json
+
 Package: com.axs.ios16dao
 Version: 5.2.0-161
 Architecture: iphoneos-arm64
