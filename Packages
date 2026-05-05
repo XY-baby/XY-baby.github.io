@@ -3106,6 +3106,21 @@ Description: cool
 Author: wkk
 Name: 美团优化
 
+Package: com.xuuz.cadvip
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/xuuz.cad看图解锁_0.0.1-arm64.deb
+Size: 14020
+MD5sum: 8bdbbe3e3135e88004bd1b3617483b61
+SHA1: 996519ec36c2c70b39ac57eeb9ec7382ab2a387f
+SHA256: 025556a52db77e897670c7043520adc0288e28360a6f15c446866b0bc26c6d02
+Section: Tweaks
+Author: XUUᶻ
+Name: CAD快速看图解锁永久VIP
+
 Package: com.xuuz.douyinhelper
 Version: 2.1-4
 Architecture: iphoneos-arm64
