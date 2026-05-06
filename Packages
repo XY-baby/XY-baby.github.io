@@ -1917,6 +1917,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
 
+Package: com.sini921.folderpro
+Version: 0.0.1-38
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 1508
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/sini.folderpro_0.0.1-38-arm64.deb
+Size: 519434
+MD5sum: 8d4ed5c48caf189675deb1ad2656d461
+SHA1: 208ce13bfdb1895234c47e2ef8bbf03d07fe118b
+SHA256: 08d5ba6eec3f70c76c31d8ebeb8edfe55ad667c91efe031f843ee78fec311de0
+Section: Tweaks
+Description: 文件夹简单优化
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
+Name: FolderPro(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
+
 Package: com.sini921.lockscreenhelper
 Version: 0.0.1-10
 Architecture: iphoneos-arm64
