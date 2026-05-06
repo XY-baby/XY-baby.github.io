@@ -469,6 +469,29 @@ Icon: https://axs66.github.io/pro/icon/dy.png
 Name: AwemePro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/awemepro/js.json
 
+Package: com.axs.bigtime
+Version: 5.2.0-34
+Architecture: iphoneos-arm64
+Maintainer: AXS
+Installed-Size: 1096
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/axs.BigTime锁屏时钟_5.2.0-34-arm64.deb
+Size: 195198
+MD5sum: 1e57ff70fa4fb3a59cb26c225b4d1680
+SHA1: 798341eeb058dbcdd2e51ac2ab4cbc8002c26744
+SHA256: 06b5ae7d70db71fb18209200fb1446b4aa6b2abcff6da34e50281bd5084b211a
+Section: Tweaks
+Description: 一个简单的锁屏时钟插件，需要提前在相应路径放入“axs66.otf”字体素材，才可以生效。
+ * 1.锁屏大字时钟玻璃效果;
+ * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
+ * 3.支持玻璃边缘、模糊、厚度、折射、高光和壁纸采样质量调节;
+ * 4.支持浅色/深色染色强度与深浅模式覆盖;
+ * 5.支持 iOS 16+ 可变字体粗细、大小、宽度、高度和柔和度调节。
+Author: AXS
+Icon: https://axs66.github.io/pro/icon/bigtime.png
+Name: BigTime
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigtime/js.json
+
 Package: com.axs.controlcentre
 Version: 5.2.0-26
 Architecture: iphoneos-arm64
