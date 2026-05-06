@@ -871,6 +871,22 @@ Description: 让你的设备免受 DarkSword/Coruna 攻击！针对 WebContent �
 Author: roothide
 Name: lockdown(rootless)
 
+Package: com.duo.themelab
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: duo
+Installed-Size: 3728
+Depends: mobilesubstrate
+Filename: debs/duo.themelab_1.6.1-arm64.deb
+Size: 899526
+MD5sum: 59b27acf46a6889defad843dd646ea6a
+SHA1: a1e6cc4636490314e00905e5cfec846540b9cd17
+SHA256: faecda282f5e8ad0479b336f0aa9b8e3480cf9549ce0b96c1ca3bdbd252f41e9
+Section: Tweaks
+Description: 微信主题美化插件 - ThemeLab
+Author: duo
+Name: ThemeLab
+
 Package: com.dvntm.infuseplus
 Version: 1.2.0
 Architecture: iphoneos-arm64
@@ -1796,6 +1812,24 @@ Size: 507574
 MD5sum: e244920d90c7007cf985916cfdaef093
 SHA1: 856eecc697865c1a751fd1b91c9d3ac8cba71100
 SHA256: 9a427873abcdb20d277634e40638453aae99a138777a2890d5e8917ebc7309ae
+Section: Tweaks
+Description: 文件夹简单优化
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
+Name: FolderPro(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
+
+Package: com.sini921.folderpro
+Version: 0.0.1-36
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 1508
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/sini.folderpro_0.0.1-36-arm64.deb
+Size: 519110
+MD5sum: 0b9189d34d18d3fa63bb3ac95b3103bd
+SHA1: 6f6367c1d02ef73107daa755f99856d630872f0e
+SHA256: 28496e9e791a1a5681debe255c120c3c1df70f095e60c52fa4f4fbb5d63b5b0c
 Section: Tweaks
 Description: 文件夹简单优化
 Author: SINI
