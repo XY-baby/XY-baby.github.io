@@ -3125,6 +3125,23 @@ Description: cool
 Author: wkk
 Name: 米家优化
 
+Package: com.wkk.mjhook
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/wkk.米家优化_1.0-2-arm64.deb
+Size: 11660
+MD5sum: 2233bb933ee5361d7d0bd3e57a6f279a
+SHA1: a48d2a52833dfb6e800bd23ec74dd891248d5d4c
+SHA256: 78716548840135ddceff436efccd2821b50036e18518f85330998ca04fe3d6a7
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 米家优化
+
 Package: com.wkk.mtwmhook
 Version: 1.1-7
 Architecture: iphoneos-arm64
