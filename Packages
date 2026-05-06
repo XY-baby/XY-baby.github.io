@@ -3155,6 +3155,21 @@ Section: Tweaks
 Author: XUUᶻ
 Name: CAD快速看图解锁永久VIP
 
+Package: com.xuuz.cadvip
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/xuuz.cad看图解锁_0.0.3-arm64.deb
+Size: 18008
+MD5sum: d53558d2437ecc6383fe7ad3f5127a11
+SHA1: d8e55e9f2b869118d6afec04f6e2ea3912bdc959
+SHA256: 021fa1c070a21ccc3e96fb3ed61884f90d41a9074f9a5d28e8842f0a12fc6724
+Section: Tweaks
+Author: XUUᶻ
+Name: CAD快速看图解锁永久VIP
+
 Package: com.xuuz.douyinhelper
 Version: 2.1-4
 Architecture: iphoneos-arm64
