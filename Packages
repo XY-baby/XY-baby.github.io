@@ -880,6 +880,22 @@ Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
 Package: com.dao.appdata
+Version: 1.4.7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata, netskao.appdata-rootless
+Filename: debs/fouad.AppData_1.4.7-arm64.deb
+Size: 1498336
+MD5sum: 3be0b069834ed7c9ecbf7951a909bef7
+SHA1: 3b20a321f145a6d6a1bdf718b8f1e865ff8b7667
+SHA256: 65713153e38a6ca834f3a13f3c375f8ab7ab88cd28026c0ed59c025e11155eb7
+Section: Tweaks
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
+Author: Fouad Raheb
+Name: AppData(rootless)
+
+Package: com.dao.appdata
 Version: 9.9.9
 Architecture: iphoneos-arm64
 Maintainer: Nets
