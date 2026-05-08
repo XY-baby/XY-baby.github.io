@@ -3206,6 +3206,40 @@ Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈
 Author: colorBlack
 Name: Necromancy
 
+Package: com.wkk.dockhook
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/wkk.Dock高斯模糊-arm64.deb
+Size: 7244
+MD5sum: 76b0d425485d85d10c6cbd3c25d22996
+SHA1: c007ae86d7f5c8accdabc0982f7cdc8f5d4a0847
+SHA256: 4e9f762a0ccf3ddeaf5ef859c34818ea6ea4a4f9d5e3c866d8069b2a2d7a6bfd
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: Dock倒影（高斯模糊）
+
+Package: com.wkk.dockhook2
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/wkk.Dock超清-arm64.deb
+Size: 6408
+MD5sum: 2e18ef1b9a615e07e83165fc32a4d332
+SHA1: 7b76ae177e24a88e92bc9478162ffc51a7523e0d
+SHA256: 09c093c6f84191156e8ec7ff98f8d1b84410b50b20fad80f7a637089f65875af
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: Dock倒影（超清）
+
 Package: com.wkk.lynxtwo
 Version: 2.5.4
 Architecture: iphoneos-arm64
