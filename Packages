@@ -3381,6 +3381,23 @@ Description: cool
 Author: wkk
 Name: 美团优化
 
+Package: com.wkk.wcdock
+Version: 1.1-5end
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 268
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/wkk.微信悬浮底栏_1.1-5end-arm64.deb
+Size: 37968
+MD5sum: 2f559ac67ad7570224f89f0cfd51c17f
+SHA1: b4fdd9acc61453e4350586b13565f6a5c581405c
+SHA256: a4d3aea5c8e83c5a485d4b804110b01d7d71dfa39f4bb46faaa268f325ffcab4
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: 微信悬浮底栏
+
 Package: com.xuuz.cadvip
 Version: 0.0.1
 Architecture: iphoneos-arm64
