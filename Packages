@@ -3318,22 +3318,6 @@ Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.
 Name: Lynx 2
 
 Package: com.wkk.mjhook
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/wkk.米家优化_1.0-1-arm64.deb
-Size: 10920
-MD5sum: e003d3e491ab8066816a92619636315b
-SHA1: d632162faba7f8fc05370ccd51dfdc1d4cc5cdef
-SHA256: d9d90e9320620a43e520247beb6274261ad3b7e427339eefa956b435ae671053
-Section: Tweaks
-Description: cool
-Author: wkk
-Name: 米家优化
-
-Package: com.wkk.mjhook
 Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: wkk
