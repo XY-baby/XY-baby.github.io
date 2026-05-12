@@ -492,6 +492,24 @@ Icon: https://axs66.github.io/pro/icon/bigtime.png
 Name: BigTime
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigtime/js.json
 
+Package: com.axs.callershow
+Version: 5.2.0-47
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 520
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/axs.callershow来电背景_5.2.0-47-arm64.deb
+Size: 46200
+MD5sum: cb8343c8296b2981a28bc0929ed2dafe
+SHA1: 34d596c5d9bb07df3acfa417f37ee32a8b94b214
+SHA256: f80090b86d8bc39b0970b13aaaaf4655dd1325f17a88c20fd7d3e33848277a50
+Section: Tweaks
+Description: 为来电、去电添加循环视频背景，支持系统电话、微信CK语音。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/callershow.png
+Name: CallerShow
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/callershow/js.json
+
 Package: com.axs.controlcentre
 Version: 5.2.0-26
 Architecture: iphoneos-arm64
