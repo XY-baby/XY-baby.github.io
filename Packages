@@ -3506,6 +3506,21 @@ Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出
 Author: XUUᶻ
 Name: 抖音助手
 
+Package: com.xuuz.wyyvip
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 272
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/xuuz.网易云音乐解锁vip_0.0.2-arm64.deb
+Size: 34356
+MD5sum: af89d7e412936b6366c9410ac8aff3ad
+SHA1: edcd23b45c11ef76a77d86b2738b4d744a5957cb
+SHA256: 522b200d04889e239fecbc5fde210002d250bcd10307ccbe8204874ccef5d0bb
+Section: Tweaks
+Author: XUUᶻ
+Name: 网易云音乐解锁会员,可不登录
+
 Package: com.xx.baiduhook
 Version: 1.0.2
 Architecture: iphoneos-arm64
