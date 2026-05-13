@@ -11,27 +11,28 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install tools
-        run: sudo apt install dpkg-dev zstd -y
+        run: sudo apt update && sudo apt install dpkg-dev zstd -y
 
-      - name: Read UDID list
+      - name: Read UDID whitelist
         id: whitelist
         run: |
-          list=$(cat udid.txt | grep -v ^# | grep -v ^$ | awk '{print $1}' | tr '\n' '|' | sed 's/|$//')
+          list=$(cat udid.txt | grep -v '^#' | grep -v '^$' | awk '{print $1}' | tr '\n' '|' | sed 's/|$//')
           echo "list=$list" >> $GITHUB_OUTPUT
 
-      - name: Generate real repo only for allowed UDID
+      - name: Generate repo files
         run: |
-          # 默认给外人用假 Release（加不上源）
+          # 默认使用无效 Release，让未授权设备添加失败
           cp Release.empty Release
-          
-          # 如果是你自己设备 → 释放真实源
-          if echo "${{ github.event.client_payload.udid }}" | grep -qE "^(${{ steps.whitelist.outputs.list }})$"; then
-            echo "✅ 白名单设备，解锁完整源"
-            # 生成真实 Packages
+          # 生成空 Packages
+          echo "" > Packages
+          echo "" > Packages.zst
+
+          # 如果是授权设备，恢复完整源
+          if [ -n "${{ github.event.client_payload.udid }}" ] && echo "${{ github.event.client_payload.udid }}" | grep -qE "^(${{ steps.whitelist.outputs.list }})$"; then
+            echo "✅ Allowed UDID, restoring full repo"
             dpkg-scanpackages debs /dev/null > Packages
             zstd -f Packages > Packages.zst
-            # 恢复真实 Release
-            cat > Release <<EOF
+            cat > Release <<'EOF'
 Origin:  XY's Repo
 Label:  XY's Repo
 Suite: stable
@@ -43,10 +44,10 @@ Description: 私人源
 EOF
           fi
 
-      - name: Save
+      - name: Commit changes
         run: |
-          git config --global user.name "Repo Lock"
+          git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Release Packages Packages.zst
-          git commit -m "UDID 验证完成" || true
+          git commit -m "Update repo with UDID check" || true
           git push
