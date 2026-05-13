@@ -1,9 +1,9 @@
-name: Generate Packages Index
+name: Update Repo Packages
 on:
   push:
-    branches: [ master ]
     paths:
-      - 'debs/**'  # 只要 debs 文件夹有变化，就自动执行
+      - 'debs/**'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,19 +11,31 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install dpkg
-        run: sudo apt-get update && sudo apt-get install -y dpkg-dev zstd
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev zstd
+
+      - name: Fix deb permissions (兜底)
+        run: |
+          # 给所有deb包添加全局读权限，强制解决Permission denied
+          sudo chmod -R 644 debs/*.deb
+          sudo chown -R $(whoami):$(whoami) debs/
 
       - name: Generate Packages
         run: |
-          dpkg-scanpackages debs/ /dev/null > Packages
-          zstd -f -c Packages > Packages.zst
+          dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
+          sed -E 's/^Section:.*$/Section: Tweaks/' Packages.raw > Packages
+          zstd -f Packages -o Packages.zst
+          rm -f Packages.raw
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Packages Packages.zst
-          git commit -m "Auto-update Packages index" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-update: All to Tweaks" || echo "No changes"
+          git push -f origin master
