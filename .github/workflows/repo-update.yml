@@ -3,15 +3,22 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+    inputs:
+      udid:
+        description: 'Device UDID to allow'
+        required: false
+        default: ''
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install tools
         run: sudo apt update && sudo apt install dpkg-dev zstd -y
@@ -24,13 +31,11 @@ jobs:
 
       - name: Generate repo files
         run: |
-          # 默认给未授权设备返回无效 Release
           cp Release.empty Release
           echo "" > Packages
           echo "" > Packages.zst
 
-          # 如果是授权设备，恢复完整源
-          if [ -n "${{ github.event.client_payload.udid }}" ] && echo "${{ github.event.client_payload.udid }}" | grep -qE "^(${{ steps.whitelist.outputs.list }})$"; then
+          if [ -n "${{ inputs.udid }}" ] && echo "${{ inputs.udid }}" | grep -qE "^(${{ steps.whitelist.outputs.list }})$"; then
             echo "✅ Allowed UDID, restoring full repo"
             dpkg-scanpackages debs /dev/null > Packages
             zstd -f Packages > Packages.zst
