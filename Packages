@@ -15,22 +15,6 @@ Author: Lessica <82flex@gmail.com>
 Name: TrollSpeed JB
 
 Package: cn.fkj233.watchfix
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 577FKJ
-Installed-Size: 2404
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/cn.watchfix_1.0.0-arm64.deb
-Size: 113026
-MD5sum: 92d7d6a3f4b4c762737ee0409586e78e
-SHA1: 61201165495056a8de885ef5f9c0951d69c62b0b
-SHA256: 20e94a0fd514d26649ca66a56337b5f6040f1127f528b30d12b3f72d5e3c6fb3
-Section: Tweaks
-Description: Fix Apple watch connection issues
-Author: 577FKJ
-Name: WatchFix
-
-Package: cn.fkj233.watchfix
 Version: 2.0.0
 Architecture: iphoneos-arm64
 Maintainer: 577FKJ
@@ -57,7 +41,7 @@ Size: 275932
 MD5sum: 171ae972af027d45256a2d9f28d5d7f3
 SHA1: 897c7fe6800d309b0d713d6d132cc638c70d348e
 SHA256: 7329f44595532b0184703ebc7ab11c79e7225083c76b2d9f91a3940d8a487691
-Section: Tweaks
+Section: 系统增强
 Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.自定义X键盘底部的高度，地球底部的高度等。可以解决1.3.7版Svp分屏开启后，地球或者语音按不动的问题。
 Author: Netskao
 Icon: https://axs66.github.io/repo/icon/classickeyboardxs.png
@@ -75,7 +59,7 @@ Size: 953728
 MD5sum: d7de10d50519f18e14bb4e6b5efd2e87
 SHA1: bbd326c180d35cca12a18e61b62752d6efa04e11
 SHA256: 1f557d12f5aeb88024eaf1a92cd8af9f7d5f1ed1497df69ecd4dd94fbcd0c268
-Section: Tweaks
+Section: 灵动岛
 Description: 为iOS16添加灵岛手电筒控制
 Author: 旧约
 Icon: https://axs66.github.io/pro/icon/lightisle.png
@@ -308,22 +292,6 @@ Name: QQ音乐净化
 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.qqmusic.json
 
 Package: com.apple.wechat.noads
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 272
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.微信净化_1.2.0-arm64.deb
-Size: 33346
-MD5sum: 837d923461d198d2318ed501a607ba06
-SHA1: 87fb2c1f4f953c9cf87fb7208e0cc2c625b76115
-SHA256: 86510d9b5641a720159512f0ea364dbe7fc9b0c2ab2da0bb72d6adeb6aa89a43
-Section: Tweaks
-Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除!
-Author: Apple
-Name: 微信广告净化助手
-
-Package: com.apple.wechat.noads
 Version: 1.2.1
 Architecture: iphoneos-arm64
 Maintainer: Apple
@@ -378,42 +346,6 @@ Name: 知乎净化
 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.zhihu.json
 
 Package: com.axs.appiconbundles
-Version: 5.2.0-30
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 412
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/axs.appicon_5.2.0-30-arm64.deb
-Size: 33936
-MD5sum: 9fad688b34cb0bf23304d67f531415be
-SHA1: f666bf520fe4625ffa77077294eb7871b151cb2c
-SHA256: a87f671e0669516bb41630f5717fa64d9e8f9bbfd4e318cfb0c0b0b0ee8cb1ac
-Section: Tweaks
-Description: Replace SpringBoard home screen and Dock app icons from theme folders under /var/mobile/Axs/IconBundles by bundle identifier file names.
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/appicon.png
-Name: AppIcon
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/appicon/js.json
-
-Package: com.axs.appiconbundles
-Version: 5.2.0-86
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 468
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/axs.appiconbundles_5.2.0-86-arm64.deb
-Size: 47136
-MD5sum: 1f5619581a7c52946463396aaab63a54
-SHA1: f289b650edcd856f7904deaaf0cb0c67991d01a4
-SHA256: c90e6b7f8b20ea45f5e011e58f1488b75cb48ca2e3837d788d26bf3283366914
-Section: Tweaks
-Description: Replace SpringBoard home screen and Dock app icons from theme folders under /var/mobile/Axs/IconBundles by bundle identifier file names.
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/appicon.png
-Name: AppIcon
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/appicon/js.json
-
-Package: com.axs.appiconbundles
 Version: 5.2.0-99
 Architecture: iphoneos-arm64
 Maintainer: Axs
@@ -432,25 +364,6 @@ Name: AppIcon
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appicon/js.json
 
 Package: com.axs.awemepro
-Version: 5.2.0-106
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 1296
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/axs.AwemePro_5.2.0-106-arm64.deb
-Size: 252684
-MD5sum: 4ad08057c6e3c1b9818d8205efd4e1b4
-SHA1: 7504ba784e0b167ec931bde68a0149134a92be62
-SHA256: c44db0cca3fcf5a52846870127b00ee290f775caf5c5183d3bebe31e2dc5d136
-Section: Tweaks
-Priority: optional
-Description: 一个简单的抖音自用插件，仅在37.9.0版本编译，无效请卸载!
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/dy.png
-Name: AwemePro
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/awemepro/js.json
-
-Package: com.axs.awemepro
 Version: 5.2.0-118
 Architecture: iphoneos-arm64
 Maintainer: Axs <qiaozhani000@163.com>
@@ -461,7 +374,7 @@ Size: 254016
 MD5sum: 8de820fa8e89edd2b1d3dc0a01181892
 SHA1: af4e2721705671ac6539acafbb2e799a68ab0e9b
 SHA256: e9bf7370b3255cf04664a986db00f9f712d518ce35f5f26f9889743e5f5930d9
-Section: Tweaks
+Section: Axs-Tweaks
 Priority: optional
 Description: 一个简单的抖音自用插件，仅在37.9.0版本编译，无效请卸载!
 Author: Axs <qiaozhani000@163.com>
@@ -480,7 +393,7 @@ Size: 195198
 MD5sum: 1e57ff70fa4fb3a59cb26c225b4d1680
 SHA1: 798341eeb058dbcdd2e51ac2ab4cbc8002c26744
 SHA256: 06b5ae7d70db71fb18209200fb1446b4aa6b2abcff6da34e50281bd5084b211a
-Section: Tweaks
+Section: Axs-Tweaks
 Description: 一个简单的锁屏时钟插件，需要提前在相应路径放入“axs66.otf”字体素材，才可以生效。
  * 1.锁屏大字时钟玻璃效果;
  * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
@@ -529,24 +442,6 @@ Name: ControlCentre
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/controlcentre/js.json
 
 Package: com.axs.ios16dao
-Version: 5.2.0-161
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 608
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/axs.灵动岛ios16_5.2.0-161-arm64.deb
-Size: 67044
-MD5sum: fc419fa2e9f9dab18cf651fa200adcd1
-SHA1: cdebcd1c14b05c49d45c49db6b731d0e7faa242c
-SHA256: 88029d37d2e1cd21874a88e96103f2a60357a0178e215f41de9a73e028cc1c07
-Section: Tweaks
-Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-Name: ios16灵动岛
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-
-Package: com.axs.ios16dao
 Version: 5.2.0-177
 Architecture: iphoneos-arm64
 Maintainer: Axs
@@ -557,7 +452,7 @@ Size: 67104
 MD5sum: e8adc5e877101c175493289bf858e899
 SHA1: 4cdba911b7703d55a248ab23e88a694e264dd1b3
 SHA256: 442d139c5d66f80479440a98671341048c78cfd6f19c4821221b8310e9540c5f
-Section: Tweaks
+Section: 灵动岛
 Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
@@ -575,7 +470,7 @@ Size: 53540
 MD5sum: d8bbe0be7653f9b0c0ba6d9dfdc9c5c8
 SHA1: e18e166ecad5126f8f6ba073cc2300433c2c3a1c
 SHA256: fbf778849b8cdcff3698d4f81d1c14fe8d144a15cea237e8c6e870aeb61a2365
-Section: Tweaks
+Section: 灵动岛
 Description: 灵动通知，功能介绍:
   * 1.在灵动岛上显示精美的消息通知；
   * 2.支持自定义背景（视频、图片、纯代码格式）；
@@ -607,35 +502,6 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: ScreenShell Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
-
-Package: com.axs.switchicon
-Version: 5.2.0-131
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 836
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/axs.switchicon_5.2.0-131-arm64.deb
-Size: 122528
-MD5sum: ab68e821f2630db3ae297f49732e978a
-SHA1: 54b7b2d01ec634d93b465c5f5b565030f11b8f76
-SHA256: 35de138df50dae2c4c160bfbd63bd0189d31d2cda2ca8f14836cca8962f53dc4
-Section: Tweaks
-Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
- * 一、纯代码开关组
- * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
- * 2. 静态组：日月开关、水滴开关、立体开关、温度开关、星月开关，覆盖多种精致静态样式；
- * 3. 液态开关：复刻 iOS 26 风格，并支持开启状态颜色自定义；
- * 4. 日月开关：支持太阳、云朵、月亮、星星颜色自定义，一个开关也能千变万化。
- * 二、素材开关组
- * 1. 素材开关：在指定路径放置 on.png/off.png 开关素材；
- * 2. 支持创建多套，在插件面板自由切换。
- * 三、温馨提示
- * 1. 早买早享受，后续免费更新；
- * 2. 后续增加新样式，新用户可能面临涨价。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/switchicon.png
-Name: Switch Icon
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 
 Package: com.axs.switchicon
 Version: 5.2.0-139
@@ -730,21 +596,6 @@ Author: baiy <961666883>
 Name: 白衣の小分组
 
 Package: com.baiy.wechatfile
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: baiy <961666883>
-Installed-Size: 17348
-Depends: mobilesubstrate
-Filename: debs/baiy.WeChatFile_1.0.1-arm64.deb
-Size: 6325752
-MD5sum: 5bc119d179e36aa4c093805d4fcddf80
-SHA1: 332125348e4c720362ac08721e2ec129bae46c21
-SHA256: c00766b1744d629521ab1884f70dd6e0fa05ab10d730a281c7a83c61adcc627b
-Section: Tweaks
-Description: 白衣
-Name: WeChatFile
-
-Package: com.baiy.wechatfile
 Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: baiy <961666883>
@@ -794,70 +645,6 @@ Name: floatingView (授权版)
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 
 Package: com.binglan.kzmh
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.1-arm64.deb
-Size: 18916
-MD5sum: 80e5b7db0ed1b6f4372484a6ea20ba76
-SHA1: df6b542a66f0db409f6f412585f91e144888dfc7
-SHA256: 55bf3dab4a23d7fbc981eff7c81f3c08a2fb35de01d0183dd9a457d5baa29702
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.5-arm64.deb
-Size: 20604
-MD5sum: be3422e6aab99bd7059787b42e222853
-SHA1: c4b566fbb026c5f70a9cf47853f7b57123aecf31
-SHA256: d8e2ed50d27de9a11dafed55aa06c91e4952140dc264ba71183aaeef593bdbbb
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.5-1
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.5-1-arm64.deb
-Size: 21512
-MD5sum: b0df61d845089f15a2c0547d69980d71
-SHA1: d9e6205c5d038ff6734651397415bb7d57ac12e7
-SHA256: 7f4fe51db1277b6412191ca5e61d88fb73617a003846b5b9f78096d5ffa8203b
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 376
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.6-arm64.deb
-Size: 20792
-MD5sum: 4efe657677ff3e633c841e161683271c
-SHA1: b7b537968e3e8e6380719a0dce4ce9c780a9d117
-SHA256: 1fc5a372cba5d7c0673a40faca22af9ec001fd80be7e7cec3dc83bd1f9faeb39
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
 Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: binglan
@@ -872,70 +659,6 @@ Section: Tweaks
 Description: 神秘功能。
 Author: binglan
 Name: 控制中心美化
-
-Package: com.binglanqjsy.deb
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 504
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.1.0-arm64.deb
-Size: 38152
-MD5sum: 6c96a5730626271a5ab289b8c779dee5
-SHA1: 506f8cc61d1f63baa3264d09542819e955286abb
-SHA256: 3c72294a250a48a4ed9edae94c822219c84ebf66f346ceab34d5e0fde7351f5d
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截屏水印，录屏水印，套壳截图。
-Author: binglan
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.4
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 596
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.4-arm64.deb
-Size: 60644
-MD5sum: 32f057567c9d9ce9af2b90c21c346a8c
-SHA1: dbdcc49628d3a0fd8773cee50da1417aa5186ec2
-SHA256: 7a61ad571aad30774db9434cb560b6c5501aad5711af30d54b0f16bc99222e77
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.5
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 660
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.5-arm64.deb
-Size: 66420
-MD5sum: 57a57193052225ca7a08f258e8802557
-SHA1: ef7f6d76a9a4b6a203ac7cf9b3b1d92cd3839694
-SHA256: e25c07078b83ccf0b705636c4478d269f7325287793584dac5f6debfe1f8625c
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.6
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 780
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_ 2.2.6-arm64.deb
-Size: 88136
-MD5sum: 5d35c20577026d9c14ed9fc55489c1e4
-SHA1: 0c52fd33a9cdc4991bcceb7baaf23c5531e5ee73
-SHA256: 8c78d2f3d8c0b1d498bf853395b6ef7026232c443561deac8abbc4d9fc95b9d5
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
 
 Package: com.binglanqjsy.deb
 Version: 3.0.0
@@ -954,22 +677,6 @@ Author: 冰蓝
 Name: 全局水印
 
 Package: com.charlieleung.trollopenjb
-Version: 1.2.8
-Architecture: iphoneos-arm64
-Maintainer: Charlie Leung
-Installed-Size: 13344
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/charlie.分屏_1.2.8-arm64.deb
-Size: 1981616
-MD5sum: 2f9c7b325ba038a064ae14fa4e6b2a30
-SHA1: f639739acc773381913964425e1ffc908c48303a
-SHA256: 7667c9a85ab4c5ffb30311f8a12871a5ef12336ecc02b816021c4fb240169733
-Section: Tweaks
-Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
-Author: Charlie Leung
-Name: TrollOpen
-
-Package: com.charlieleung.trollopenjb
 Version: 1.3.7
 Architecture: iphoneos-arm64
 Maintainer: Charlie Leung
@@ -980,28 +687,12 @@ Size: 1121104
 MD5sum: f27fb287358237e563528f641f97c1db
 SHA1: c4dc28ca21862dc36e149935c64c5a914cd9ecb0
 SHA256: 6fb662df4c0754f267eb2f8bb8c8af63380098c62fff4d3b16b74885e7a08e7b
-Section: Tweaks
+Section: 分屏插件
 Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
 Author: Charlie Leung
 Icon: https://axs66.github.io/pro/icon/trollopenjb.png
 Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
-
-Package: com.dao.appdata
-Version: 1.4.7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdata, netskao.appdata-rootless
-Filename: debs/fouad.AppData_1.4.7-arm64.deb
-Size: 1498336
-MD5sum: 3be0b069834ed7c9ecbf7951a909bef7
-SHA1: 3b20a321f145a6d6a1bdf718b8f1e865ff8b7667
-SHA256: 65713153e38a6ca834f3a13f3c375f8ab7ab88cd28026c0ed59c025e11155eb7
-Section: Tweaks
-Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
-Author: Fouad Raheb
-Name: AppData(rootless)
 
 Package: com.dao.appdata
 Version: 9.9.9
@@ -1014,7 +705,7 @@ Size: 823356
 MD5sum: d76e1bce5683880cf62816cf2cb1ac3e
 SHA1: 9f30ee0e8a06e6bb410094bfdef83ddee74fa3bf
 SHA256: 0f5330934b7e7a152e0aa6c355e310273c86086df556784914589f05713445fc
-Section: Tweaks
+Section: 嗨-工具
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
 Author: Fouad Raheb
 Name: AppData(rootless)
@@ -1031,7 +722,7 @@ Size: 6892
 MD5sum: f6c5136addab93ecf289cc1b9c45235a
 SHA1: 6af8ff0b83a0973e1ac6e9c619bde16266d1ab75
 SHA256: 45f0c074ca521d21a5787500a48e0b4c4fb1ac4e9ab25b3cd3f7ee94f13e4179
-Section: Tweaks
+Section: 嗨-系统
 Description: 让你的设备免受 DarkSword/Coruna 攻击！针对 WebContent 进程的 JSC 安全加固。通过配置 JavaScriptCore 选项，消除主要的漏洞利用原语（包括地址泄露/伪造对象 addrof/fakeobj、JIT 类型混淆、垃圾回收器 Use-After-Free）。该安全强化默认处于启用状态，无设置。如果使用真皮白名单RootHide，请去白名单勾选 com.apple.WebKit.WebContent。
 Author: roothide
 Name: lockdown(rootless)
@@ -1104,22 +795,6 @@ Author: 🅷🆆
 Name: 🅷🆆 地震预警
 
 Package: com.ios16dao
-Version: 5.2.0-100
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 516
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/axs.灵动岛ios16_5.2.0-100-arm64.deb
-Size: 55764
-MD5sum: 2223ae925766ac95bac914aad5bad9bd
-SHA1: 583a0efa498d77c13836c366207c043c9157097e
-SHA256: 29ad6b936e75a59678568d63c6f0482aa1e2a931afc5804e5e2308e46880e9c5
-Section: Tweaks
-Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。
-Author: Axs
-Name: ios16灵动岛
-
-Package: com.ios16dao
 Version: 5.2.0-125
 Architecture: iphoneos-arm64
 Maintainer: Axs
@@ -1130,163 +805,10 @@ Size: 55708
 MD5sum: 0560396e617a7c7edab8e5a66fbed437
 SHA1: be2133020b7de62fd1df486805f9a025acff4d2a
 SHA256: 3f9efc6b1e62564c9ff75624e04e06d22a4b0e0ae7c8ed2d57c5136fdd64018c
-Section: Tweaks
+Section: 灵动岛
 Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。
 Author: Axs
 Name: ios16灵动岛
-
-Package: com.iosdump.appdata
-Version: 1.8.9
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.8.9-arm64.deb
-Size: 295646
-MD5sum: b5c98484bd80a112c770f148e9d98b88
-SHA1: e4ec2cd31dc094a151a5cbb642893637132e9be1
-SHA256: d223a6c972bdaa8c5ee96854f395f2770752b75302a2e97aed0c945e28e43d6b
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.0-arm64.deb
-Size: 299838
-MD5sum: fd7640699fbfc344b5bbc20fb04df4b6
-SHA1: 0a087669b9e694f79ced17fa18e340a1a1404bfe
-SHA256: c5392e0d920c3cdeac737d5573b40954f76337f68bcc88ab5b929a560c689281
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.1-arm64.deb
-Size: 300058
-MD5sum: 6ea3b0ec0b26e22c70e8a89f5e4047dc
-SHA1: 0ab1301ae35b6997dd54617e18a9e2ea5c3e2292
-SHA256: c2f798715129b7bc1888a9bd6a4a2c0c3f91dde441d79ffc828e366700c1d527
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.2
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.2-arm64.deb
-Size: 306308
-MD5sum: 8dc04fda4afc23c2df1d3dd5b59e4346
-SHA1: 01c74551d93ee1926fc15eadc979dfbc90b76d49
-SHA256: 0b73c7dd1784d3e46659abc64180b8260a6577436fad5dc674c3b5cf001f0288
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.3
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.3-arm64.deb
-Size: 351820
-MD5sum: 60df696e32350216107fcf8b09c6fcf4
-SHA1: 085b0967ba5641e05160bccfdc38b236b7fa82af
-SHA256: d35609f7a7549c3437d90b7b6629515d96ae45abebdc0d1673aa9dc83952e79c
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.4
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata_1.9.4-arm64.deb
-Size: 352110
-MD5sum: 6d3f7e5f5c2197124fed520704efb7be
-SHA1: 0fe74f55572dae78471b4d7b8b7bbdbe3413d89c
-SHA256: b535ab5feb7f5d5fb4f24d1f04e38dfcbd667edd4de117085826fdd20f71996a
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.5
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata_1.9.5-arm64.deb
-Size: 359134
-MD5sum: b282e4190d6a1298c4ebae00237a2252
-SHA1: a3d5ab4c6c766b1765819401f0a2824bfef7d0a7
-SHA256: 978926c95730c441303b5d05c09444a3b8eeb00e8864bb56c829dc89876be07f
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.6
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata_1.9.6-arm64.deb
-Size: 360178
-MD5sum: 8904efded4e5f4d426695414cbf0206e
-SHA1: 741cb4e965f2217d982131226b20f72a481d851a
-SHA256: a4ca80339ed9b7af125623f79703acb83a44c4fcee86bb22c50df89fa88b9786
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.7
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.7-arm64.deb
-Size: 374210
-MD5sum: e82561af9501917313bbd930c63f2656
-SHA1: ada7c0c12a65daa6664b12221e19da1f0e1e9ece
-SHA256: 4f43305b0f6b778371efd058244c1b44a79dfecaec3003951f0d62292620ef19
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.0.1
@@ -1306,16 +828,16 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.customcallbg
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 408
+Installed-Size: 428
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/iosdump.来电背景_0.0.1-arm64.deb
-Size: 28926
-MD5sum: a3c36238b6bcd93bb2554078c0a8d4f2
-SHA1: 0e84e91696c9f653b7ae1f4fe2519b52802f5b3e
-SHA256: fb40e55d184f0c6f2bed0f7b125b64ed2d350475c26d6dd1cc8364ce160ea039
+Filename: debs/iosdump.来电背景_0.0.2-arm64.deb
+Size: 32734
+MD5sum: 9809fba0cd2f7806b99fd88855974b3c
+SHA1: 62ea5757e0a780734d4831e2155b5d5b949b207b
+SHA256: 1a670b364d56fb2b6c382187aa04f7818768463436988beac69e8cdd96a3c5d4
 Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
@@ -1346,7 +868,7 @@ Size: 104056
 MD5sum: 55fe5bf85466ec1f9f4591ea8e9f10e8
 SHA1: 4a7870d48fb78616e72c815a3f773ec7c39ea1e1
 SHA256: af70a6f8c02e34c041ce35dab89a44b2c594b2257de0a0c3b37c1a24ec78dcb4
-Section: Tweaks
+Section: 插件
 Description: Spotify无限跳过，删除广告，解锁超高质量流。。。需要Spotify应用程序 (AppStore)
 Icon: https://www.susubaby.top/images/spotify.png
 Name: Spotilife
@@ -1382,7 +904,7 @@ Size: 15500
 MD5sum: c4a0bcfc15ed9c5250033206f8fa0d07
 SHA1: 785ab083932a0c90a2a4ae140b9a717cd94bec67
 SHA256: 9ade5a1ab4d9a3ccc2d234c25744c510caa8f215ec52ed91d8416bab5f0dde9e
-Section: Tweaks
+Section: 插件
 Description: Fix for Sposify for Spotify v8.6.30
 Author: level3tjg
 Icon: https://www.susubaby.top/images/spotify.png
@@ -1654,7 +1176,7 @@ Size: 461292
 MD5sum: bd9f0c5db566980459c781cee22df7c6
 SHA1: 9bef7e0e2b3efcd45b08ccccfbff8c0b177fbc5f
 SHA256: bb9c505699a8a7616f3910f0169259b75d088274a3d146e662419bb17a4180ed
-Section: Tweaks
+Section: 应用破解
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
@@ -1674,30 +1196,12 @@ Size: 17528
 MD5sum: e752c3f4abf55f138f6c4795fe203c94
 SHA1: f5e932986ebd9d9b8f776d733218803364cc5e76
 SHA256: 045456569735b0a2403adcaf7f043b0f702648d758bdf1abfa4ed6467616b420
-Section: Tweaks
+Section: 应用破解
 Description: 领一下能量哦、长按底栏1秒
 Author: ylr
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
 Name: 支付宝步数(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
-
-Package: com.sini921.ccborder
-Version: 1.1.2-40+beta4
-Architecture: iphoneos-arm64e
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 1012
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: debs/sini.ccborder_1.1.2-arm64.deb
-Size: 203680
-MD5sum: 4ab5ea398cef453203b96de0fd58a62a
-SHA1: a99a49d05499b1615d0fe0bf114c25862d842123
-SHA256: 8a2c5810494a75f5b7e59f1e64735dbdea7f269201eb50934acc5d013bd9c1f2
-Section: Tweaks
-Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
-Author: fiore & p2kdev & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
-Name: CCBorder(roothide)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
 
 Package: com.sini921.ccborder
 Version: 1.1.2-42
@@ -1710,156 +1214,12 @@ Size: 211748
 MD5sum: 6ee4ec2fe50ddf39455cd70aaf40e11b
 SHA1: e4b7890589289c67545f50d97ec9ecb70cba0c4c
 SHA256: 28e6c815869f9c9f63a9018203ad3fb4bafa69b06e603ea041598ba99005d198
-Section: Tweaks
+Section: 控制中心
 Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
 Author: fiore & p2kdev & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Name: CCBorder(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-10
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-10-arm64.deb
-Size: 146784
-MD5sum: 22716d5126d7ada45d8979cad07f550f
-SHA1: 44cc161734fb9faf67bfd2eb95aac4d864090398
-SHA256: 341c6f49cf4ae5b47406924502f1553304b9da18a4a029f5f8ce83d28e8fa69a
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-11
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-11-arm64.deb
-Size: 147078
-MD5sum: 3e996b5efced3120833505ac7d206108
-SHA1: 4eadfc0a432fae730f3d39f7d00dac23f61ad464
-SHA256: 4494cc35ce604fd1e458bf2502639fa2c19e8ade2505f14bb69cd587cec2affc
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-12
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-12-arm64.deb
-Size: 146972
-MD5sum: 47ce010947b42ef8201a420248c25746
-SHA1: 862ea5be4581f1483822f058a04ca757362217ca
-SHA256: 4043973cce596b8e1212b8f75c7569b1c7c7aa266ef77b2c0d3f8475515b44d0
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-13
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-13-arm64.deb
-Size: 146402
-MD5sum: 9690a0c6c2923b0acf34325c073ab360
-SHA1: 3fead30452a3a5d62916cbf35de85896393023b3
-SHA256: 62787bcc3fd8997f92f6d55fec20c06e1b555b5714c044a7c6be5a3d4b1a8252
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-14
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-14-arm64.deb
-Size: 146698
-MD5sum: 26fae3c6ba4702fbde74ebafd1905595
-SHA1: 38801fc9051113073a50a9c98f035a0027c4c09d
-SHA256: 1a33e2a5b3be5cd3c347f199d8f7b2011e63fc605112c21c76ba362652c6f72c
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-15
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-15-arm64.deb
-Size: 146906
-MD5sum: ea6a12083b25c1558f48ab79a7b350a1
-SHA1: c5e0f579c22cf1b4bdd3ca1a2d2f76610f43bfde
-SHA256: 488954a7a73c915aff81543a2a96670d55350a554323429e2862862adb372629
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-16
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-16-arm64.deb
-Size: 146892
-MD5sum: 9dae7af84062274294ba1111118d5f98
-SHA1: 07ae94a0673551413d5afefe62f6ed4813914311
-SHA256: 21632792b293f8d28767ca2c714a478a7f577ad0f1df6e858eccd712d729477c
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-17
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-17-arm64.deb
-Size: 147012
-MD5sum: f2df75c26aef1bd5ecac70169c0324a3
-SHA1: b6194afc09609c2f88a1a69079ec86595758d991
-SHA256: df2ef54c7111108e7c773a36002a0692cf50a83eba6b6699657fcf7ebe46ca11
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
 
 Package: com.sini921.ccloader
 Version: 0.0.1-18
@@ -1872,97 +1232,7 @@ Size: 159284
 MD5sum: 727443b65f8d8e49470dd9f1ee8acbab
 SHA1: aed54b1b2a668d70628233d93cf3f5aaf4253cd6
 SHA256: 8545c1b902e06d52520d61863714ac3e5a20fd97c76818765c9da3180cf1766d
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-5
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-5-arm64.deb
-Size: 144600
-MD5sum: 99358fe9b1185673e0790b84a017483b
-SHA1: e467e612f41fd11c1b4120f91d056c130baf4410
-SHA256: 9e09b1ad585ca16f7d9af6dc78a99e0e8bcc1a2f996437ec10de8fef9d3160b4
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-6
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-6-arm64.deb
-Size: 144508
-MD5sum: c6c813778d264e774eca7a04cf97969e
-SHA1: b04e0c5b14fa04b29985de01918e54f895c659a3
-SHA256: 2cb239144d2ccffc36da96aaa3ee1e8eff863ee9b0ff1f9a631e6d7fe207ad31
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-7
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-7-arm64.deb
-Size: 145168
-MD5sum: d62021e954fc9bc1c93bf493964438af
-SHA1: 19cfdc724f942023d672889f6e8ee6cc98393177
-SHA256: 7e72435b53e5e5d18c958d3c139a5bc510afd0bd85d2c37af493f4a0823c4973
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-8
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-8-arm64.deb
-Size: 145338
-MD5sum: 8be5857fb0ab36dd31740fae97900be9
-SHA1: 602337cb1ba2f14bbdfcaa4cc6d037f7b68d3917
-SHA256: 2c428812746313a229864575f497d55c8a34cf78549d2bced3d4e4a27e6e1ea5
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-9
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-9-arm64.deb
-Size: 146758
-MD5sum: 076ff94c2ba792755ead829d23454bc9
-SHA1: 1657fe38196684e4943c9b4f71de1a774344e5a8
-SHA256: de44d9525da96bb9446c834e64a40117b1fa60f998fc34a83205b875fb4dc19e
-Section: Tweaks
+Section: 控制中心
 Description: 控制中心CAPackage加载器
 Author: 橙子
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
@@ -1986,132 +1256,6 @@ Author: SINI
 Name: DisabledCircleBackground(rootless)
 
 Package: com.sini921.folderpro
-Version: 0.0.1-33
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1452
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-33-arm64.deb
-Size: 507102
-MD5sum: 38ccf1a4208cccf56ece78e808657e66
-SHA1: fb48c4e787169516b5db9c078230dd57642df11d
-SHA256: f6a89cb12fc222ed793a673cb12088a85e4102cc69870f08eeeb0b4fcdcc4f62
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-34
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1456
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-34-arm64.deb
-Size: 507574
-MD5sum: e244920d90c7007cf985916cfdaef093
-SHA1: 856eecc697865c1a751fd1b91c9d3ac8cba71100
-SHA256: 9a427873abcdb20d277634e40638453aae99a138777a2890d5e8917ebc7309ae
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-36
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1508
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-36-arm64.deb
-Size: 519110
-MD5sum: 0b9189d34d18d3fa63bb3ac95b3103bd
-SHA1: 6f6367c1d02ef73107daa755f99856d630872f0e
-SHA256: 28496e9e791a1a5681debe255c120c3c1df70f095e60c52fa4f4fbb5d63b5b0c
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-37
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1508
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-37-arm64.deb
-Size: 519854
-MD5sum: c356a6241fc4e0798c1230eebb51dc64
-SHA1: d27a58bdba4c4a385046f1e81167ada2aaea7895
-SHA256: 45968eb70918b34d051b07e1c795b6b5ecd0fff240c46f6c58cbe34f411ac985
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-38
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1508
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-38-arm64.deb
-Size: 519434
-MD5sum: 8d4ed5c48caf189675deb1ad2656d461
-SHA1: 208ce13bfdb1895234c47e2ef8bbf03d07fe118b
-SHA256: 08d5ba6eec3f70c76c31d8ebeb8edfe55ad667c91efe031f843ee78fec311de0
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-39
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1524
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-39-arm64.deb
-Size: 522726
-MD5sum: e992177db8fae57795711ab749fe231e
-SHA1: fdd09da6ee660cac7e4411e3a8f2b92edcf99d54
-SHA256: 38de7267be9f910b2939eb532938a9446a9d9431677bb92fa80ed5e8b11caaea
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
-Version: 0.0.1-39+beta4
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 1660
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.folderpro_0.0.1-39+beta4-arm64.deb
-Size: 555424
-MD5sum: 218fe3a306bb3c83ef4cc0e0f3fac96b
-SHA1: bd8626fcde01bea7508e64cf0845bb55b475364d
-SHA256: 4c54f918e42c7f472998ac05dcfde12a06bebf5624596d05dcfa205f64447676
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.folderpro
 Version: 0.0.1-39+beta5
 Architecture: iphoneos-arm64
 Maintainer: SINI
@@ -2122,48 +1266,12 @@ Size: 554216
 MD5sum: 5d4a03056a8b188380c4b0f42f90dbbe
 SHA1: 99cecddb511a412175e11c3252304c0057e826e1
 SHA256: 5a220f0c7daf20473e7b2cf7c369469c53323e0730e3a1ebe29ad8920068a1f3
-Section: Tweaks
+Section: 越狱插件
 Description: 文件夹简单优化
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
-
-Package: com.sini921.lockscreenhelper
-Version: 0.0.1-10
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 668
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.LockScreenHelper-0.0.1-10-arm64.deb
-Size: 76048
-MD5sum: 5618e7e38a08f2a48531ff9617cf1db6
-SHA1: f0a889d4deca87d14eadd550811dcc782d547aaf
-SHA256: e17dd762c8a2f74b3e4e7457fb9bbaaf21578c54b8fb1ae2345f4d8763813e22
-Section: Tweaks
-Description: 锁屏界面相关的简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
-Name: LockScreenHelper(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
-
-Package: com.sini921.lockscreenhelper
-Version: 0.0.1-11
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 668
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Filename: debs/sini.LockScreenHelper-0.0.1-11-arm64.deb
-Size: 75824
-MD5sum: bb16a7d3f5f1a897ef94cb53bb74428e
-SHA1: 4ee4eb5d531ab9594f6a2d2632a2c22df759f036
-SHA256: e33baaecb71a559d4de286c75e97d11da0aff91ee9b46c00ab0ccff1ca5bedd3
-Section: Tweaks
-Description: 锁屏界面相关的简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
-Name: LockScreenHelper(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
 
 Package: com.sini921.lockscreenhelper
 Version: 0.0.1-12
@@ -2176,7 +1284,7 @@ Size: 75834
 MD5sum: 8ab83cd8fa522578fe361f05b0048f41
 SHA1: d4210379a4bf5868d61742d651d81ee39a8a8959
 SHA256: 4768a3e9a52f651d129b7eb6264cf5cd9d45aa8fc4fee5a6df89f947dc190384
-Section: Tweaks
+Section: 越狱插件
 Description: 锁屏界面相关的简单优化
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
@@ -2194,7 +1302,7 @@ Size: 58612
 MD5sum: 577aa2af4114dc0756ee23f8fba8c06d
 SHA1: a0a9e1c5005e2c347e41b16925df2b9df7e54431
 SHA256: 5fb41b4c78c4956e4c202e50eb3c01fac278fb34206b064bab18e5ffcf4f1a4a
-Section: Tweaks
+Section: 越狱插件
 Description: 系统相册App简单优化
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/photohub.png
@@ -2212,7 +1320,7 @@ Size: 2547330
 MD5sum: 5d9e67eccdb9d37c70e2cbfd8879e34b
 SHA1: 3a78c3b6e52fe4251bdf8594d4ba170a5562e83d
 SHA256: 3fc2d07a10e397f5d996c25f11419aca0f2dd086b0af4015ac44b1e737a1b520
-Section: Tweaks
+Section: 越狱插件
 Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
 Author: ETHN & SINI & 鲨鱼
 Icon: https://sini921.github.io/repo/sileodepiction/icon/reachplayer.png
@@ -2230,7 +1338,7 @@ Size: 87378
 MD5sum: a81348472e8695dcae03665604dc76fe
 SHA1: 3a4f95fb53d0408fc41837e33de1b41cd44632a2
 SHA256: 06d9e07215b8580d033c463d67c6880fe283951c00befbc6b178cd82c8a15f46
-Section: Tweaks
+Section: 越狱插件
 Description: 开关简单美化, 旨在为需要SnowBoard的开关美化功能但不需要SnowBoard的其他功能的情况下使用
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/switchpro.png
@@ -2283,7 +1391,7 @@ Size: 1255596
 MD5sum: 069b3abe4e9317ea301568357dd59ea1
 SHA1: 34ac02aebc8f633fdba518304b4b7c69dd535ed9
 SHA256: 9ac5bb5d7c2fc0e98e749f257394859ab365f01fdad62fd0f956dccf7b012bf9
-Section: Tweaks
+Section: SnowBoard
 Description: Snowboard本体，所有扩展都将依赖此插件，单独使用可以更换桌面图标（抖动后双击）等其他功能，此源仅作备份与注释。
 Author: Spark & Dennis D. Bednarz
 Icon: https://s1.imagehub.cc/images/2025/02/16/6184f5a172c0da2db10df7ddce6977bc.png
@@ -2316,7 +1424,7 @@ Size: 16856
 MD5sum: 2cf57c07d9ca4d68cb76d26fea7fbb37
 SHA1: 001c0120821de07eff93ed7626107320c49b0725
 SHA256: c63d71774f3f0d4f052be7703f77f0479ec08cd66ac9aca880f03933c17f5f64
-Section: Tweaks
+Section: 插件
 Description: No WeChatAds
 Author: susu
 Icon: https://www.susubaby.top/images/wechat.png
@@ -2334,7 +1442,7 @@ Size: 24548
 MD5sum: 4a6b19ca8216450c6c9942528580e71d
 SHA1: b5c7621849812a8cdd85184041de937ccd8d8b44
 SHA256: 0c60227659b7e27f3f77688c3e0178925227343a71ff522eda464984076f337e
-Section: Tweaks
+Section: 插件
 Description: 隐藏键盘切换中的"键盘设置"选项,苏苏汉化编译
 Icon: https://www.susubaby.top/images/HidekBSettings.png
 Name: HideKBSettings
@@ -2350,83 +1458,11 @@ Size: 83323848
 MD5sum: 355ea785c3a35d1ee18875ebb637b9a1
 SHA1: 1b01d64eacd6adef8fe50981290b4ad342439662
 SHA256: d89dac679976d447f8c2468d421d662841eaf9bedd31fc84fb762e7bb0cab2a9
-Section: Tweaks
+Section: 字体
 Description: 苏苏提取ios16原生字体，修改为90%大小，使用前请先挂载！
 Author: 苏苏
 Icon: https://www.susubaby.top/images/ziti.png
 Name: ios16原生字体 90%大小
-
-Package: com.susu.ios18batteryestimate
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.1-arm64.deb
-Size: 37364
-MD5sum: 64b4fead481a2d6ae87d9929dc54e1e0
-SHA1: 0c9d665b566bce64885f29aa31b99e7cc024139e
-SHA256: c0b6ea0b00611db1346873400a10cd449f2715281d7c099c215afd535e02a4ce
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.ios18batteryestimate
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.2-arm64.deb
-Size: 39718
-MD5sum: 8a09c3af5446bc78bea4a7112e67096f
-SHA1: 6762957c131ea0ff9b25ac30d1b83afe11354b5f
-SHA256: 3b8ea192cb0c0d58a36bafdc9c8e148f22d13d62fdff1fe5825518fb64906295
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.ios18batteryestimate
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 336
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.3-arm64.deb
-Size: 44878
-MD5sum: d9083449d1ea4f76395fff125ada2e26
-SHA1: 41775a606929c3148d62933d876f50d9461cba0c
-SHA256: b917ff0347896df7576faeaf2da779ec9840150ecf27fc48f1eef0c4c87bad71
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.ios18batteryestimate
-Version: 1.1.4
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 336
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.锁屏充电时间_1.1.4-arm64.deb
-Size: 49204
-MD5sum: 7c6efe3460a1c649c0d1f9a166a64e4d
-SHA1: aebded77e67b8cf977b12c07a193de25f887a144
-SHA256: d2818e186043c05d591da337a5d2353fc12260e214e575760bd7f2e3cfc7ed11
-Section: Tweaks
-Description: 在锁屏界面显示预计充电时间
-Author: 苏苏
-Icon: https://www.susubaby.top/images/batteryestimate.png
-Name: iOS18BatteryEstimate
-Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
 
 Package: com.susu.ios18batteryestimate
 Version: 1.1.5
@@ -2439,53 +1475,12 @@ Size: 50188
 MD5sum: 9ac84147ea37d6edc231e5c23e6ce2dd
 SHA1: 2008d29b217d6ca0bf5d742c17525172a2091e62
 SHA256: 2b50447436abab9bfa1ac45a90e5b6494e884b5a3a6e0dae5bdd52dba8c6a83c
-Section: Tweaks
+Section: 调整
 Description: 在锁屏界面显示预计充电时间
 Author: 苏苏
 Icon: https://www.susubaby.top/images/batteryestimate.png
 Name: iOS18BatteryEstimate
 Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
-
-Package: com.susu.nopreferencetips
-Version: 1.0.2-1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.隐藏非官方电池提醒_1.0.2-1-arm64.deb
-Size: 5490
-MD5sum: 0ce92cbd9b971f37ba59ab19b88f4d1d
-SHA1: 673a3fe5e0fd1ef64830e67f0c82d30861db0ca5
-SHA256: d7709f58972fe0b08a39aa7a4bdfd409f6bbd9b4c505375abd0fe6e110f4a256
-Section: Tweaks
-Description: 此插件偏向于更换非官方电池的用户(一“件”全包)
-   * 修复“设置-电池-电池健康与充电”的提醒并显示健康值
-   * 移除桌面上的设置角标（只显示 15 天）
-   * 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）
-Author: 苏苏
-Icon: https://www.susubaby.top/images/Preferences.png
-Name: NoPreferencesTips
-
-Package: com.susu.nopreferencetips
-Version: 1.0.3-7
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/susu.隐藏非官方电池提醒_1.0.3-7-arm64.deb
-Size: 7016
-MD5sum: 9198e72487653355fd91029282b03586
-SHA1: cbfe82bedeb2d1cdbbe90019ad08d60be42621bf
-SHA256: 93794d19ace9c58fa17717f7f90b2658158f722d131ff1586b630496d2190f5d
-Section: Tweaks
-Description: 此插件偏向于更换非官方电池的用户(一“件”全包)
-   * 支持iOS15-iOS16
-   * 修复“设置-电池-电池健康与充电”的提醒并显示健康值
-   * 移除桌面上的设置角标（只显示 15 天）
-   * 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）
-Author: 苏苏
-Icon: https://www.susubaby.top/images/Preferences.png
-Name: NoPreferencesTips
 
 Package: com.susu.nopreferencetips
 Version: 1.0.4
@@ -2498,7 +1493,7 @@ Size: 5386
 MD5sum: b9e7e36b4800edff79ce0540e800e81d
 SHA1: d6a55d46e3233007838ecdb4e13a13914f580f89
 SHA256: f5830ad34a7c4b1e63cd2af2dac0d8da13d949481b56dfb145fd9d704592003d
-Section: Tweaks
+Section: 调整
 Description: 此插件偏向于更换非官方电池的用户(一“件”全包)
    * 支持 iOS15-iOS16
    * 移除“设置-电池-电池健康与充电”的提醒并显示健康值
@@ -2507,22 +1502,6 @@ Description: 此插件偏向于更换非官方电池的用户(一“件”全包
 Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips
-
-Package: com.susu.photos
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 168
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/susu.相册精简_1.0.0-arm64.deb
-Size: 3572
-MD5sum: 15876d7e90c6c0442e3cb0da12b13a8c
-SHA1: 48340c8563e703b16df105e0299e800d0544d5a6
-SHA256: 07c09914ecae84784017cba4b945caa4cd4be10332f18dfc89009fdb10b8cb9d
-Section: Tweaks
-Description: 删除原生相册无用的窗口
-Author: 苏苏
-Name: SuPhotos
 
 Package: com.susu.photos
 Version: 1.0.1
@@ -2542,24 +1521,6 @@ Icon: https://www.susubaby.top/images/photos.png
 Name: SuPhotos
 
 Package: com.susu.reachplayer
-Version: 4.0.3
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 2088
-Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_4.0.3-arm64.deb
-Size: 1096182
-MD5sum: 97c9cbfc9c1a4aaf2d0555572cfb22c1
-SHA1: cc6a17db8830d5230c270f3fbff60515dbdfc42f
-SHA256: c3bc21886833a54663dffbb2f9628618dee3e91a819feb94910c9be3f33575db
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏
-Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
-Name: ReachPlayer音乐专辑
-Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
-
-Package: com.susu.reachplayer
 Version: 4.1.3
 Architecture: iphoneos-arm64
 Maintainer: 苏苏
@@ -2570,7 +1531,7 @@ Size: 1250378
 MD5sum: ef2877195efff385686f460b4688d154
 SHA1: f8b7d03e6cfabbe56504b3454b21ec47e7b0416b
 SHA256: f234e2d739a8998746163099044719384360b791638839bf36ad8e09fee72527
-Section: Tweaks
+Section: 插件
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
@@ -2604,290 +1565,11 @@ Size: 14996
 MD5sum: 113bb7a80a40fc2e54607ab337e83dd4
 SHA1: c997e1e33f801bf98cb26ff3a9dea154acc5b63e
 SHA256: 7600c8322e83fb9bb53cf3bb0bce61fbe3ac3f327aef6ae9619ed8a361c1ca2f
-Section: Tweaks
+Section: 插件
 Description: App Store 账户快速切换。苏苏修改编译，优化了账号切换逻辑
 Author: 苏苏
 Icon: https://www.susubaby.top/images/appstore.png
 Name: StoreSwitcher2
-
-Package: com.susu.suawemehook
-Version: 1.2-1
-Architecture: iphoneos-arm64
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-1-arm64.deb
-Size: 20496
-MD5sum: dd6b2e8733cff98074edd2f13fdedd87
-SHA1: 1369ffee80a447deaddf197428eff643707efc85
-SHA256: 6b25a5faa1d38e4098f59a47ce6205893114b769cfa61b68c4b26b02fa2d3644
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-2-arm64.deb
-Size: 20922
-MD5sum: 178cb403429e0265078bdb6a538030f1
-SHA1: b4cbc40cfc139973836235196afb4af56bec4709
-SHA256: bf13253f4024f4277ca3988fc519b6031592baa5eaba8f47b1bf3758d38e1052
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-3
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-3-arm64.deb
-Size: 21000
-MD5sum: d98f87fea013093a08f953d2bd6cd27e
-SHA1: 3887374ae934f4d7d10c45a93d5345cb662abbd9
-SHA256: e4c459d58c800f3ab0aeb53dd61a90ce998127aa799b9efbf641536da14988db
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-4
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-4-arm64.deb
-Size: 21798
-MD5sum: fc83894a17d882968c7e455d23cc495b
-SHA1: ff4d0c2ec936555e944c53c2866b8597515039e9
-SHA256: dddf65b3becace6ade9609af9c0c5ea6048c5b7a9ae6ad793a6d35403f023053
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-
-Package: com.susu.suawemehook
-Version: 1.2-5
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-5-arm64.deb
-Size: 22608
-MD5sum: 5ce42842b7cd37f37b028d97102f167e
-SHA1: 1b13aaab6f032d2c5d77f5b47836731fe64a0d3d
-SHA256: d758d18a8534e8afd05d42a520db2cb462b8f3a6499d56b0cc3d6e391fcf76ac
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.2-6
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-6-arm64.deb
-Size: 22668
-MD5sum: a911307f84bacdb821d21a104297ac28
-SHA1: 92bb3d6dfc49add6321e61c2c7ad37648990b25b
-SHA256: a1d61d64521e0bd0c923f00d336682fa85034b20d0ef749338f2c9bca8ea1070
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.2-7
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-7-arm64.deb
-Size: 22432
-MD5sum: 69a72ef178370f940c4e17f8ed26bd0f
-SHA1: 3cb1500db76d789e27f10f49b3d16c7da4de55dd
-SHA256: 468fa1d041dbb804239ac8f7711e7daa37e484f236b53248eb4f7d5477ae373c
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.2-8
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.2-8-arm64.deb
-Size: 22844
-MD5sum: a60c037b17a2d2d86627eb1a7b2be8cc
-SHA1: 3989fdc4e6a423e598887772b8e9cb913c67c286
-SHA256: d0423957f86b16afd45213c2f480ac66b2433b7d13a4fa976b7ee599da44733d
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化End_1.3-arm64.deb
-Size: 23046
-MD5sum: 7b3cc16edad4019b3cc9b2edb9bcc933
-SHA1: 9ca7b3578fd8df8c14cb3bd9ae65cc7bad6365bf
-SHA256: ccaeac8ec7880e377370e24f2e65d6b14e03cf1dddca9e62e80a0b24896c572b
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook End
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.1
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.1-arm64.deb
-Size: 23204
-MD5sum: 5464b79e36907c46da23821544c48ce7
-SHA1: 2c0a9c3401812cfcac0e41d2829e07c4a844f1cc
-SHA256: 81ac56c7721df199337eb47fe48cc4be0830bd9d7db65549bd7a7668ea3d29a3
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.2
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.2-arm64.deb
-Size: 23426
-MD5sum: 4606a27351c4db80cb9b27e6e0ae0a90
-SHA1: d4daaa430a423b955bf22507a2bfa97cd0620a9c
-SHA256: 248141c5ee648c68c2059b6422b141f152bc1ec9434fa95f167a384567e510af
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.3
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 332
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.3-arm64.deb
-Size: 31996
-MD5sum: cdfdb240ab0c5403e1d923cb292df966
-SHA1: f402c41fdb2a6243424ed406ade01ccb50443dab
-SHA256: 4eb463190f3039cb6edef4ed5030cbb0b8229fc2f6ac6cb0cd212cde4ee15948
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.5
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 332
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.5-arm64.deb
-Size: 31584
-MD5sum: 542e33df5fc34d3429fdcead1da33baf
-SHA1: f31fa0b8f912cc4d153713ab3233f36dce126e74
-SHA256: 7dd17af7f9b236236154046d97939a90635d7eedd231aa5903c2635d1136a41e
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.6
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 352
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.6-arm64.deb
-Size: 37462
-MD5sum: 48411fb7cde8cef1cab29d32b1782336
-SHA1: 28362b19d323974dd7d7130fbf8399f91e2a283a
-SHA256: 336c801e3bf218672a73ba6d91681aeb3c1dc26088717d4673e09fa73a20d2b7
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
-
-Package: com.susu.suawemehook
-Version: 1.3.7
-Architecture: iphoneos-arm64
-Maintainer: susu
-Installed-Size: 400
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/susu.抖音净化_1.3.7-arm64.deb
-Size: 42508
-MD5sum: cbbe41667c2245486abf5f5c1777ef09
-SHA1: f516ceb27ad0cfc7b883c98905917e1a103b6b33
-SHA256: 8d3069e5c5df039bf169b98c6e6fe7da0cc1d963769049d540a1e22c5044ce68
-Section: Tweaks
-Priority: optional
-Description: 仅供学习交流
-Author: susu
-Icon: https://www.susubaby.top/images/douyin.png
-Name: SuAwemeHook
-Sileodepiction: https://www.susubaby.top/json/SuAwemeHook/js.json
 
 Package: com.susu.suawemehook
 Version: 1.3.8
@@ -2919,27 +1601,11 @@ Size: 86872
 MD5sum: ef5b0b3831cbb50e67bac26f73918ab2
 SHA1: 9213fbd6cd23acf43ed2ca43010ca6b6b8df50d9
 SHA256: 66d139044e2a5e2d075126c179b4446aecfe7cfa0c7b57544be8bbb70ae07049
-Section: Tweaks
+Section: Control Center (Modules)
 Description: 自定义控制中心音乐播放器
 Author: 苏苏
 Icon: https://lt.sntp.uk/i/2026/01/25/6975ccd13b377.png
 Name: SuMusicPlayerCC
-
-Package: com.susu.sutheme
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/susu.自定义图标_1.0.1-arm64.deb
-Size: 12562
-MD5sum: 6a83cf68741edc46038b7acc8874d644
-SHA1: c191e2b0dc8af7ffe59965fa103b64046f7f42d7
-SHA256: 66761c05963f1a242a2117582d83aceb72ff66761f7179bcb5b140cde9595138
-Section: Tweaks
-Description: 自定义应用图标
-Author: 苏苏
-Name: SuTheme
 
 Package: com.susu.sutheme
 Version: 1.0.2
@@ -2968,7 +1634,7 @@ Size: 12174
 MD5sum: 3400390ddad0208e8b1271a2fc2c5ddd
 SHA1: 25f4b363298ce58c8f25b09be0ccab23b66299f8
 SHA256: 113cc2d49708580ad15ce711ff74eab353def113562c405433a958cd18197f33
-Section: Tweaks
+Section: 插件
 Description: 小红书调整，关于页面双击版本号启用。原xhsplus
 Author: susu
 Icon: https://www.susubaby.top/images/xhs.png
@@ -2985,7 +1651,7 @@ Size: 423112
 MD5sum: 23e7e78c4f956b106617d34f3d30f5e1
 SHA1: 1541d5e7604c8441e19943c9dedea7811fef5002
 SHA256: fb7360a66a97cd2782fe74b05861bf5134d50aefb87832f894c5f07c04955f98
-Section: Tweaks
+Section: 插件
 Description: 自定义锁头图标和位置
 Author: Maxwell Dausch
 Icon: https://www.susubaby.top/images/latchkey.png
@@ -3303,38 +1969,6 @@ Author: TiaoTiao
 Name: WeChatEmoticonToSelfie
 
 Package: com.tiaotiao.wxkeyboarduihook
-Version: 1.8
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 416
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信键盘虚线_1.8-arm64.deb
-Size: 81104
-MD5sum: 781da50e35122e97118343867055f887
-SHA1: 6708b3eb109855c250d7fe30117b41c71bc3f9e4
-SHA256: 836c9675da9f6828186f6370eedfd50f9d3c337a19d9e5d36e734999e2af93d9
-Section: Tweaks
-Description: WXKeyboardUIHook
-Author: TiaoTiao
-Name: WXKeyboardUIHook
-
-Package: com.tiaotiao.wxkeyboarduihook
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 416
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信键盘虚线_1.9-arm64.deb
-Size: 83910
-MD5sum: a85171436dd66d8cbb21af8f2be60ebc
-SHA1: 600e1d592ec99e0c6bd152e18682750f68237e35
-SHA256: 5008731c213f496c0ec16663302b98aa183aca7c92e5e96512cdab9ca9beeb66
-Section: Tweaks
-Description: WXKeyboardUIHook
-Author: TiaoTiao
-Name: WXKeyboardUIHook
-
-Package: com.tiaotiao.wxkeyboarduihook
 Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: TiaoTiao
@@ -3401,21 +2035,6 @@ Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.
 Name: 米家优化
 
 Package: com.xuuz.cadvip
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/xuuz.cad看图解锁_0.0.1-arm64.deb
-Size: 14020
-MD5sum: 8bdbbe3e3135e88004bd1b3617483b61
-SHA1: 996519ec36c2c70b39ac57eeb9ec7382ab2a387f
-SHA256: 025556a52db77e897670c7043520adc0288e28360a6f15c446866b0bc26c6d02
-Section: Tweaks
-Author: XUUᶻ
-Name: CAD快速看图解锁永久VIP
-
-Package: com.xuuz.cadvip
 Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
@@ -3429,114 +2048,6 @@ SHA256: 021fa1c070a21ccc3e96fb3ed61884f90d41a9074f9a5d28e8842f0a12fc6724
 Section: Tweaks
 Author: XUUᶻ
 Name: CAD快速看图解锁永久VIP
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-4
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17412
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-4-arm64.deb
-Size: 6765338
-MD5sum: bd1156f2d5f000d01781c59d504a13df
-SHA1: 6acd5424ba6df7f354aba47c3e47140e39bd274f
-SHA256: 4bab52135fb5df587ba9f96c34ea115aaa4fdcaeb5673231c7c88a8a39e1954e
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-5
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17444
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-5-arm64.deb
-Size: 6759068
-MD5sum: 3530c28a62a3bb9f51e409668299de13
-SHA1: 4314a62bf5cb98548fe80e0e3c43af0eca873c39
-SHA256: 952cb19115dd5c9565a725342d881b38f7fbb9de2e2073c0eeb0907c99a6ce1b
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-6
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-6-arm64.deb
-Size: 6785514
-MD5sum: f71abab2fe9703713ff130047684e09e
-SHA1: 403922bfd195fd8f80be9bfa88aea0976b28d122
-SHA256: b472b4a068859a00679f1d59e25989ad94c4c5990089bc8d2b64bd14c7cd8749
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-7
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-7-arm64.deb
-Size: 6784306
-MD5sum: b17f3835884c3dc28626b0ab6bd6d321
-SHA1: 4afb734fa033eb624fedff9364ff1f853f16d4aa
-SHA256: 99e603e302f43ffd96cc442e59b9b9f20529182bdf5db74f6b5e94345f448e89
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-8
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-8-arm64.deb
-Size: 6774432
-MD5sum: 2e2a582c238bb3171ec44277a32dab23
-SHA1: 804aef32f50f3cee96d917fb6b0849b24b1d76eb
-SHA256: 5e137c490011ca11127513ed42f1e902e608db8daa4404c12ac1331bd46fbb4e
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-9
-Architecture: iphoneos-arm64
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/xuuz.douyinhelper_2.1-9-arm64.deb
-Size: 6784198
-MD5sum: 4b5701fe256005d9b2c04ebc56bba73e
-SHA1: c61ac84cb4019e70bb6e1f9c1c2aae9191066731
-SHA256: ef214d6de19f91206ccc0c248c6f9b0183e5cfb304498b95caa369d4a6e2f12f
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Author: XUUᶻ
-Name: 抖音助手
 
 Package: com.xuuz.douyinhelper
 Version: 2.2-0
@@ -3634,21 +2145,6 @@ Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏 <kk99588077@gmail.com>
 Name: ReachPlayer音乐专辑
 
-Package: com.yourepo.ok95.reachplayer
-Version: 5.0.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏 <kk99588077@gmail.com>
-Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
-Size: 1259174
-MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
-SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
-SHA256: ca05dc04581ebe6c5ca9fb53653d5008e85fd132b36cb8b463284673ad4348db
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏 <kk99588077@gmail.com>
-Name: ReachPlayer音乐专辑
-
 Package: flex3
 Version: 1:3~Beta90
 Architecture: iphoneos-arm64
@@ -3681,7 +2177,7 @@ Size: 20122340
 MD5sum: fe7e9d1394c3c07bca23125c84d3eada
 SHA1: 0e186e9184d5b1fb0b582347a0af5a3c05c59dec
 SHA256: 00c08a6c13636f7519bddcb180b92b99004a0907e2a5805c97dff7ecad8bd070
-Section: Tweaks
+Section: custom
 Priority: optional
 Description: Misaka
 Author: Misaka
@@ -3701,7 +2197,7 @@ Size: 7997238
 MD5sum: 494fe2d75bd12b6611ca9faf65e41d0c
 SHA1: 57ebb1b007017b11572851dab837913a30b8b14d
 SHA256: 7772c0d645d1266b15e95cadb0ad8c422214a581a734091368b95494fb45379a
-Section: Tweaks
+Section: Netskao-Tweaks
 Description: 微信净化. 还原聊天本质, 干净的微信给你. 仅支持8.0.29及以上版本, 设置位于微信-设置
 Author: Netskao
 Name: 微信净化
