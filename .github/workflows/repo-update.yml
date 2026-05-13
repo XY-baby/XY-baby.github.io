@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
       - name: Install tools
         run: sudo apt update && sudo apt install dpkg-dev zstd -y
@@ -21,9 +24,8 @@ jobs:
 
       - name: Generate repo files
         run: |
-          # 默认使用无效 Release，让未授权设备添加失败
+          # 默认给未授权设备返回无效 Release
           cp Release.empty Release
-          # 生成空 Packages
           echo "" > Packages
           echo "" > Packages.zst
 
