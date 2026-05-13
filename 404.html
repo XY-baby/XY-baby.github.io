@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+</head>
+<body>
+    <script>
+        // ====================== 在这里添加你的白名单 UDID ======================
+        const allowedUDIDs = [
+            "00008120-001171690E63C01E", // 你的设备1
+            "11111111-1111111111111111"  // 你朋友的设备2
+        ];
+        // =====================================================================
+
+        const url = new URL(window.location.href);
+        const path = url.pathname;
+        const udid = url.searchParams.get("udid");
+
+        // 验证 UDID 是否在白名单
+        function isAllowed() {
+            return udid && allowedUDIDs.includes(udid.trim());
+        }
+
+        // 处理源文件请求
+        if (path === "/Release") {
+            if (isAllowed()) {
+                window.location.replace("/Release.real");
+            } else {
+                document.body.innerHTML = "404 Not Found";
+            }
+        } else if (path === "/Packages") {
+            if (isAllowed()) {
+                window.location.replace("/Packages.real");
+            } else {
+                document.body.innerHTML = "404 Not Found";
+            }
+        } else if (path === "/Packages.zst") {
+            if (isAllowed()) {
+                window.location.replace("/Packages.zst.real");
+            } else {
+                document.body.innerHTML = "404 Not Found";
+            }
+        } else {
+            document.body.innerHTML = "404 Not Found";
+        }
+    </script>
+</body>
+</html>
