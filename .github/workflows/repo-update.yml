@@ -1,41 +1,52 @@
-name: Update Repo Packages
+name: Lock Repo By UDID
 on:
   push:
-    paths:
-      - 'debs/**'
+    branches: [master]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y dpkg-dev zstd
+      - name: Install tools
+        run: sudo apt install dpkg-dev zstd -y
 
-      - name: Fix deb permissions (兜底)
+      - name: Read UDID list
+        id: whitelist
         run: |
-          # 给所有deb包添加全局读权限，强制解决Permission denied
-          sudo chmod -R 644 debs/*.deb
-          sudo chown -R $(whoami):$(whoami) debs/
+          list=$(cat udid.txt | grep -v ^# | grep -v ^$ | awk '{print $1}' | tr '\n' '|' | sed 's/|$//')
+          echo "list=$list" >> $GITHUB_OUTPUT
 
-      - name: Generate Packages
+      - name: Generate real repo only for allowed UDID
         run: |
-          dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          sed -E 's/^Section:.*$/Section: Tweaks/' Packages.raw > Packages
-          zstd -f Packages -o Packages.zst
-          rm -f Packages.raw
+          # 默认给外人用假 Release（加不上源）
+          cp Release.empty Release
+          
+          # 如果是你自己设备 → 释放真实源
+          if echo "${{ github.event.client_payload.udid }}" | grep -qE "^(${{ steps.whitelist.outputs.list }})$"; then
+            echo "✅ 白名单设备，解锁完整源"
+            # 生成真实 Packages
+            dpkg-scanpackages debs /dev/null > Packages
+            zstd -f Packages > Packages.zst
+            # 恢复真实 Release
+            cat > Release <<EOF
+Origin:  XY's Repo
+Label:  XY's Repo
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 私人源
+EOF
+          fi
 
-      - name: Commit and push changes
+      - name: Save
         run: |
-          git config --global user.name "GitHub Actions"
+          git config --global user.name "Repo Lock"
           git config --global user.email "actions@github.com"
-          git add Packages Packages.zst
-          git commit -m "Auto-update: All to Tweaks" || echo "No changes"
-          git push -f origin master
+          git add Release Packages Packages.zst
+          git commit -m "UDID 验证完成" || true
+          git push
