@@ -1415,6 +1415,22 @@ Description: Spotify无限跳过，删除广告，解锁超高质量流。。。
 Icon: https://www.susubaby.top/images/spotify.png
 Name: Spotilife
 
+Package: com.jz.fz
+Version: 1.4.0-24+debug
+Architecture: iphoneos-arm64
+Maintainer: Junzai
+Installed-Size: 1844
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/junzai.微信分组_1.4.0-24-arm64.deb
+Size: 214936
+MD5sum: a246f47108574d10a0ef2e10af7ba463
+SHA1: 46b24fd07da3f1624f9de105bd8265df78d187da
+SHA256: c1d5d193311915532b809a0d438c4c8bdcc1e469cc9985b405732e9818b5638f
+Section: Tweaks
+Description: 侧边栏分组
+Author: Junzai
+Name: Fenzu
+
 Package: com.korboy.filzaenhanced
 Version: 1.0.6
 Architecture: iphoneos-arm64
