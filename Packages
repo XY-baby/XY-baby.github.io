@@ -1450,27 +1450,6 @@ Description: 侧边栏分组
 Author: Junzai
 Name: Fenzu
 
-Package: com.korboy.filzaenhanced
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: Korboy <korboybeats@gmail.com>
-Installed-Size: 74348
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Filename: debs/korboy.filza增强_1.0.6-arm64.deb
-Size: 15106410
-MD5sum: 29111b352caee85044522546cfd97473
-SHA1: d529a015da945c1035c8fb5ea9af8d387d130275
-SHA256: 4de58cccf3372bc0c338f82024d3c15ef0bd456c0a11117c3ac2c8b6ed64c1c1
-Section: Tweaks
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Author: Korboy <korboybeats@gmail.com>
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Name: FilzaEnhanced
-Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Summary: All-in-One Filza Enhancements
-
 Package: com.level3tjg.sposifyfix
 Version: 0.0.6
 Architecture: iphoneos-arm64
