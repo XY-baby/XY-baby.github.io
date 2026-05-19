@@ -1742,26 +1742,6 @@ Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需
 Author: Simon
 Name: 灵动岛跳舞动画PLUS
 
-Package: com.sini.dyyy
-Version: 2.2-9-build1653
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2184
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/huami.dyyy_2.2-9-arm64.deb
-Size: 461292
-MD5sum: bd9f0c5db566980459c781cee22df7c6
-SHA1: 9bef7e0e2b3efcd45b08ccccfbff8c0b177fbc5f
-SHA256: bb9c505699a8a7616f3910f0169259b75d088274a3d146e662419bb17a4180ed
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
-Name: DYYY(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
-
 Package: com.sini.zfbhook
 Version: 1.5.5
 Architecture: iphoneos-arm64
