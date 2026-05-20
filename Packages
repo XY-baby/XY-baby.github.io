@@ -3725,6 +3725,73 @@ Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏 <kk99588077@gmail.com>
 Name: ReachPlayer音乐专辑
 
+Package: dylv.liquidass
+Version: 0.0.9a
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 3756
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/dylv.liquidass_0.0.9a-arm64.deb
+Size: 1368404
+MD5sum: 32084de76771871ba53e5ddbf9064d9b
+SHA1: 397e767befd4f356ef5fba836cc0df45e03fa42a
+SHA256: 76debe662ea9309d82dfb1171e138586ace8de9ef18b6e9a9e091dc041ecb657
+Section: Tweaks
+Description: next level diarrhea
+Author: dylv
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Name: Liquid (Gl)ass
+
+Package: dylv.liquidass
+Version: 7.2.alpha
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/dylv.liquidass_7.2.alpha-arm64.deb
+Size: 273718
+MD5sum: ae51201d3aa600b010161d64ee2e3bb7
+SHA1: 4e4298353fabf6c80d2e64776a19dbcc5e5066b3
+SHA256: 2ed4f888c38ede3f67d318d59102f2d91883ee529b43abb55c98dc6c3da75ac6
+Section: Tweaks
+Description: ass
+Author: dylv
+Name: Liquid (Gl)ass
+
+Package: dylv.liquidass
+Version: 8.1.alpha
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 2572
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/dylv.liquidass_8.1.alpha-arm64.deb
+Size: 533352
+MD5sum: 9e01c23daa488458ca6f949c619cff5c
+SHA1: e8f015762a0e17cbb1aebb48e42aff72d589e3ee
+SHA256: 59798fd45ea6e43d583f372bf2d66e08b206eee58873ee599546e171de685773
+Section: Tweaks
+Description: next level diarrhea
+Author: dylv
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Name: Liquid (Gl)ass
+
+Package: dylv.liquidass
+Version: 8.alpha
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 2472
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/dylv.liquidass_8.alpha-arm64.deb
+Size: 513842
+MD5sum: 0ea25b4106633c9b987649b779229c88
+SHA1: 243c005bfc3356cf0dfe50eee7b1a56659cd55c2
+SHA256: c2522d9651d31a7c197bba7440ce842a6981a84efc981d29f7164b0417a6d6f4
+Section: Tweaks
+Description: next level diarrhea
+Author: dylv
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Name: Liquid (Gl)ass
+
 Package: flex3
 Version: 1:3~Beta90
 Architecture: iphoneos-arm64
