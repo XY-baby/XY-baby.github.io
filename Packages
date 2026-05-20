@@ -1419,6 +1419,22 @@ Description: 提取与修改 Assets.car 资源 (Filza 插件)
 Author: iosdump
 Name: FilzaCarPlugin
 
+Package: com.iosdump.shellx
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iosdump.shellx_0.0.2-arm64.deb
+Size: 72298
+MD5sum: 992c1eafa85a905292c5573203540595
+SHA1: cda43a920f5eb70da084b209d9a645906b25bbf6
+SHA256: a4125473b7dd4b598a962fb9985a29e9a6e81ebe87dcc2d0bdbd8e0ac35c0981
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
 Package: com.julioverne.spotilife
 Version: 1.8
 Architecture: iphoneos-arm64
