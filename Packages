@@ -3800,3 +3800,20 @@ Description: 自用
 Author: 𝙓
 Name: 小红薯
 
+Package: xmmm.xmzs
+Version: 1.1-4C
+Architecture: iphoneos-arm64
+Maintainer: xmmm
+Installed-Size: 3728
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/xmmm.熊猫助手_1.1-4C-arm64.deb
+Size: 1080946
+MD5sum: 1bf3fd5ead9da8882847c2dabc65affa
+SHA1: 4110fcb00dd6b24cee39695459081737beb50b9b
+SHA256: 3ee32976e93a132e3196cc4b5e10b851365eafa3651667ac3cdf04a774f4de57
+Section: Tweaks
+Priority: optional
+Description: 微信功能扩展
+Author: xmmm
+Name: 熊猫助手
+
