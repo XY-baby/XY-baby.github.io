@@ -1822,24 +1822,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
 Name: 支付宝步数(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
 
-Package: com.sini921.ccborder
-Version: 1.1.2-40+beta4
-Architecture: iphoneos-arm64e
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 1012
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: debs/sini.ccborder_1.1.2-arm64.deb
-Size: 203680
-MD5sum: 4ab5ea398cef453203b96de0fd58a62a
-SHA1: a99a49d05499b1615d0fe0bf114c25862d842123
-SHA256: 8a2c5810494a75f5b7e59f1e64735dbdea7f269201eb50934acc5d013bd9c1f2
-Section: Tweaks
-Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
-Author: fiore & p2kdev & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
-Name: CCBorder(roothide)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
-
 Package: com.sini921.ccloader
 Version: 0.0.1-10
 Architecture: iphoneos-arm64
