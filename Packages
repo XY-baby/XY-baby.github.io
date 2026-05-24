@@ -745,6 +745,22 @@ Description: 给微信添加一些分组过滤。
 Author: baiy <961666883>
 Name: 白衣の小分组
 
+Package: com.baiy.wcgrouping
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: baiy <961666883>
+Installed-Size: 36100
+Depends: mobilesubstrate
+Filename: debs/baiy.白衣の小分组_2.0.2-arm64.deb
+Size: 12668584
+MD5sum: 77ec9289c26a251b539b0070c0075c74
+SHA1: c59586e538b349c6b3258244766940209ad902c9
+SHA256: d01fa4b8d567521e70857f274bcce6d45e2bfe2fd853be8396754e7383373def
+Section: Tweaks
+Description: 给微信添加一些分组过滤。
+Author: baiy <961666883>
+Name: 白衣の小分组
+
 Package: com.baiy.wechatfile
 Version: 1.0.1
 Architecture: iphoneos-arm64
