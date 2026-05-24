@@ -1455,6 +1455,22 @@ Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
 Name: CustomCallBg
 
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iosdump.customcallbg_0.0.6-arm64.deb
+Size: 69734
+MD5sum: fc37959ebfe5a073fd3dafce64148c50
+SHA1: 955c7729c7a378b1cd3ccb4d69af98da40c528d0
+SHA256: 333760a89b0ae242c097dcfe7e320562b42da519da9b3b9abdaf78fb2d90f592
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
 Package: com.iosdump.filzacarplugin
 Version: 1.0.0
 Architecture: iphoneos-arm64
