@@ -1701,6 +1701,22 @@ Icon: https://axs66.github.io/repo/icon/vitreux.png
 Name: Vitreux 液态玻璃
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
 
+Package: com.necromancy.tweak
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: colorBlack
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/colorblack.Necromancy墓碑-1.2.6-arm64.deb
+Size: 342096
+MD5sum: 58459e3e0df3335e57c604238d910889
+SHA1: 21bbcf82ee1a1708c123670ef46dcccb86e08ef9
+SHA256: f34d7ddf3458941a90f77745f02b0cbd48fd25498f579bfe45eed2e60b56abad
+Section: Tweaks
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Author: colorBlack
+Name: Necromancy
+
 Package: com.niceios.mrshi-rootless
 Version: 1.0.0.2-235
 Architecture: iphoneos-arm64
