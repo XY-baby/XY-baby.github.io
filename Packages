@@ -1829,6 +1829,22 @@ Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈
 Author: colorBlack
 Name: Necromancy
 
+Package: com.netskao.swiftgramcrack
+Version: 1.1-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1080
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/netskao.swiftgramcrack_1.1-7-arm64.deb
+Size: 423212
+MD5sum: a5d46ee732a831fcc8e26e7d7c238406
+SHA1: e2d5ba34a1db3fbc9d9401c5132b1f5b775d42a0
+SHA256: 670c3c781f20f5a9e247c584f825a29ddc6933adf912583b3354a536f8454a30
+Section: Tweaks
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Author: Netskao
+Name: Swiftgram Crack
+
 Package: com.niceios.mrshi-rootless
 Version: 1.0.0.2-235
 Architecture: iphoneos-arm64
