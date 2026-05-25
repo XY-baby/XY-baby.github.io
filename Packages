@@ -1019,6 +1019,118 @@ Icon: https://axs66.github.io/pro/icon/trollopenjb.png
 Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
+Package: com.colorblack.baidumapadblock
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/colorblack.百度地图-arm64.deb
+Size: 4312
+MD5sum: f4669764dfbc945c165bd53fe0f5b26d
+SHA1: 9bc0f748d00f1fb6b1f60cadfaffafbf583f3a1f
+SHA256: 21145f0eb265ccf049df6311dcca371ee7c5fe83636090c5d0305c832bfbba4e
+Section: Tweaks
+Description: Disable Splash Ads in Baidu Map.
+Author: colorblack
+Name: BaiduMapAdBlock
+
+Package: com.colorblack.dongchedinoad
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.懂车帝-0.2.arm64.deb
+Size: 5052
+MD5sum: db111eb8df335ae7a4b0e00e0339ce72
+SHA1: 9ad97d2d4ac0a3022a997e2151b2f7c72d9c1249
+SHA256: 240497e40377a23857d5b8677803f4d526342e735e357d9b58387665152208d2
+Section: Tweaks
+Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
+Author: colorblack
+Name: Dongchedi-NoAd
+
+Package: com.colorblack.dongfangcaifu.nostartad
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.东方财富-arm64.deb
+Size: 6716
+MD5sum: 589c8e0e875ed31555d0c7a3b26bdb10
+SHA1: 87436b053672fcad562c066accca287c1d4c1244
+SHA256: 0a2793da1912a2dcfcbdc19a5b5ea90d1f67a5950864bf40274d7d5f0ed85468
+Section: Tweaks
+Description: 移除东方财富启动开屏广告。适配 Dopamine rootless 与 roothide 环境。
+Author: colorblack
+Name: DongFangCaiFu-NoStartAd
+
+Package: com.colorblack.kiwinoad
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.虎牙直播-arm64.deb
+Size: 6380
+MD5sum: 446b975ecf54366947291574ef1bf2b1
+SHA1: d4e58b27e66e6aea4ef687a35d60cfa8d2ce1c0c
+SHA256: 05aa5d4cd28f8e6734fff77b923dbcc9e28c52b2c306ce222a339d5edb494638
+Section: Tweaks
+Description: Disable Splash Ads in Huya.
+Author: colorblack
+Name: KiwiNoAd
+
+Package: com.colorblack.liantongzhijianoad
+Version: 1.0.0-5+debug
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.联通智家_0.4-arm64.deb
+Size: 6202
+MD5sum: f9c68d9edd2f6e420c09cd0a748b0051
+SHA1: dcf3a2ff3de87d10dc94a4f947e2bd94df912d22
+SHA256: e3b8c87e9e5507d90d2ecddbf4994fa5ac6b00e11bce9825aca4b87dd35b6f8f
+Section: Tweaks
+Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
+Author: colorblack
+Name: Liantongzhijia-NoAd
+
+Package: com.colorblack.xcfnoad
+Version: 1.0.0-9+debug
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: debs/colorblack.下厨房_0.8-arm64.deb
+Size: 7376
+MD5sum: 6f2f45a2fc4a7f81754f3b00c2f06e5e
+SHA1: 54b6f331fb322cb5d858e94774e457197e024acf
+SHA256: 205c7db12e9f4bddc57e025e2f314a811bcd7bdaf188f755d91d013f525af191
+Section: Tweaks
+Description: Disable Splash Ads in Xiachufang.
+Author: colorblack
+Name: XCFNoAd
+
+Package: com.colorblack.youdaoyunbiji
+Version: 0.0.1-11+debug
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.有道云笔记-0.10-arm64.deb
+Size: 7870
+MD5sum: 706e3cfd6338f260476a7fa0f597cfc5
+SHA1: 4e17a5ec8fd686d1bb17dc024d750cb9722f280d
+SHA256: 948dee9ba86cddca2513bd1dade5334840f7e40fecc6b67d3fb9ab857e58e8e0
+Section: Tweaks
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
+Author: colorblack
+Name: youdaoyunbiji-NoAd
+
 Package: com.dao.appdata
 Version: 1.4.7
 Architecture: iphoneos-arm64
@@ -3798,6 +3910,22 @@ Section: Tweaks
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏 <kk99588077@gmail.com>
 Name: ReachPlayer音乐专辑
+
+Package: com.yourname.12306noad
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm64
+Maintainer: yourname
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: debs/colorblack.12306_0.7-arm64.deb
+Size: 7358
+MD5sum: 183e8b6c1259b9b5ed28b65ee301813d
+SHA1: 6644cdc5e4412000305e6bc6bbba2521fa407315
+SHA256: 7532ef607f6bceb5cb40170184c1a8d4f1f402cd8098c017529f21f6b292385c
+Section: Tweaks
+Description: 12306 去广告 (适配隐根 RootHide)
+Author: yourname
+Name: 12306NoAd
 
 Package: dylv.liquidass
 Version: 0.0.9a
