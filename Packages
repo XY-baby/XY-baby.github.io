@@ -1067,6 +1067,22 @@ Description: 移除东方财富启动开屏广告。适配 Dopamine rootless 与
 Author: colorblack
 Name: DongFangCaiFu-NoStartAd
 
+Package: com.colorblack.jianxunnolaunchad
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/color.简讯-arm64.deb
+Size: 15644
+MD5sum: c9848302940b6df9e58c941155806103
+SHA1: 72afc75a2ea2febea37298c3bd263922adaa4777
+SHA256: 7dea7f55a244b9df95fce8a5630f8f59aa5d17b798312b079ad0ddfd5875313a
+Section: Tweaks
+Description: Remove the launch screen ad in JianXun.
+Author: colorblack
+Name: JianXun No Launch Ad
+
 Package: com.colorblack.kiwinoad
 Version: 1.0.0-2+debug
 Architecture: iphoneos-arm64
