@@ -1,3 +1,19 @@
+Package: ayao.hidedoubaopip
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: ayao
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/color.hidedoubaopip_0.0.6-arm64.deb
+Size: 14968
+MD5sum: a0f8ee35fa2bb0e10bf23b6254323345
+SHA1: d925e074e4cf137b49aa44e70d12e2e87623a967
+SHA256: ccba6cebe87c746804f408d4c2bb6c113d31a2cae793a66891504f8e10dd6364
+Section: Tweaks
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Author: ayao
+Name: HideDoubaoPiP
+
 Package: ch.xxtou.hudapp.jb
 Version: 2.0-13
 Architecture: iphoneos-arm64
@@ -1654,6 +1670,22 @@ Size: 127250
 MD5sum: 95c22843f816a45317d6bea4fdc30470
 SHA1: 80baa485d2f6ede5f90b78d9a89018e42c8afc56
 SHA256: b0298098d37603794d3f18b9315903746fda4243f876d79fa8f0dbd597c0ade4
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 812
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iosdump.shellx_1.1.0-arm64.deb
+Size: 136686
+MD5sum: 09290b1e43a6c642565352f1813febba
+SHA1: 7128af2419c7e54b56a5de6ae874765f67d1f555
+SHA256: f4279c6d0b2c5283ddb6aeae8ba074ece5d7a8bcb2f4e6f35b602537d5b9ba70
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -3950,7 +3982,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -3965,7 +3997,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
