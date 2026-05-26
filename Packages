@@ -3549,6 +3549,22 @@ Name: 微博轻享版去广告
 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.weibolite.json
 
 Package: com.thefool.ccaudioplay
+Version: 0.0.1-7+debug
+Architecture: iphoneos-arm64
+Maintainer: thefool
+Installed-Size: 29768
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/thefool.ccaudioplay_0.0.1-7-arm64.deb
+Size: 25099156
+MD5sum: 30f7951238d591dc69ac36e05d311183
+SHA1: 86f015f47e413ab8e9d8024c9cc7a897d698507b
+SHA256: 55530df4ee0f59474bfe32a1fb4dc91bcd3028889dc94e314c836144c2041f1a
+Section: Tweaks
+Description: 播放器美化 不支IOS15
+Author: thefool
+Name: CCAudioPlay
+
+Package: com.thefool.ccaudioplay
 Version: 0.0.1-94+debug
 Architecture: iphoneos-arm64
 Maintainer: thefool
