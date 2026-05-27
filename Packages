@@ -1,3 +1,21 @@
+Package: ayao.aipowerbutton
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: ayao
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Filename: debs/ayao.aipowerbutton_1.0.0-arm64.deb
+Size: 20176
+MD5sum: 2abdcb27a2c761bec87cf47823f32663
+SHA1: 101206cbc147c7c9e19a7f31cfd99137662f0bd3
+SHA256: d3209b7ee6a311a2da647b1104da1dbec99220808e8b2530cca33fff8a90f861
+Section: Tweaks
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Author: ayao
+Name: AiPowerButton
+
 Package: ayao.hidedoubaopip
 Version: 0.0.6
 Architecture: iphoneos-arm64
@@ -681,6 +699,23 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
 Name: Switch Icon
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
+
+Package: com.ayao.doubaopowerbutton
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: ayao
+Installed-Size: 168
+Depends: mobilesubstrate
+Replaces: com.yaofugen.doubaopowerbutton
+Filename: debs/ayao.doubaopowerbutton_0.0.6_-arm64.deb
+Size: 4894
+MD5sum: 215e4ca51e92eb8745e1eb7899089fef
+SHA1: df22d060d5025941858f68d0c65618a12195cbab
+SHA256: 0959a91c45f859f8cc104bd1a0691de84cbe9bfa0ee44397f7899e5ff286565d
+Section: Tweaks
+Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
+Author: ayao
+Name: DoubaoPowerButton
 
 Package: com.baiy.bubblerename
 Version: 1.0.0
@@ -3982,7 +4017,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -3997,7 +4032,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
