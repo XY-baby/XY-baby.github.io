@@ -17,6 +17,22 @@ Author: ayao
 Name: AiPowerButton
 
 Package: ayao.hidedoubaopip
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/ayao.HideDoubaoPiP_0.0.5-arm64.deb
+Size: 10398
+MD5sum: 8c3732a87c3b29cd5c621b012f70aa6f
+SHA1: d6b03f171b8f816385c9517341363f1ae8aa254b
+SHA256: 4facf553f48a278d8b701e19f96383fc9bfeb0e03031faa84bbb70cc7ab5e24d
+Section: Tweaks
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Author: ayao
+Name: HideDoubaoPiP
+
+Package: ayao.hidedoubaopip
 Version: 0.0.6
 Architecture: iphoneos-arm64
 Maintainer: ayao
@@ -27,6 +43,38 @@ Size: 14968
 MD5sum: a0f8ee35fa2bb0e10bf23b6254323345
 SHA1: d925e074e4cf137b49aa44e70d12e2e87623a967
 SHA256: ccba6cebe87c746804f408d4c2bb6c113d31a2cae793a66891504f8e10dd6364
+Section: Tweaks
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Author: ayao
+Name: HideDoubaoPiP
+
+Package: ayao.hidedoubaopip
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/ayao.HideDoubaoPiP_1.0.0-arm64.deb
+Size: 9876
+MD5sum: ec1662c042520e57b9607aab88d26ce1
+SHA1: 0088382a2be90ec59f2964375eb35f0ecf31cfa2
+SHA256: 77ecb9b13fe360631978665d8d3cebbca8c4d1214b1b4963d89261ec78b79e64
+Section: Tweaks
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Author: ayao
+Name: HideDoubaoPiP
+
+Package: ayao.hidedoubaopip
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/ayao.HideDoubaoPiP_1.0.2-arm64.deb
+Size: 10844
+MD5sum: 40905580405f84fb28681a53d6d0a1cf
+SHA1: 8e446e745f24cb65cb6612ef9a175f2ebeedac55
+SHA256: af1132974a237f1e35dad1f8b27fa7486689913aca734b7e89f801c34256c653
 Section: Tweaks
 Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
 Author: ayao
@@ -1197,6 +1245,38 @@ Section: Tweaks
 Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
 Author: colorblack
 Name: youdaoyunbiji-NoAd
+
+Package: com.dada.hidedoubaopip
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: dada
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/dada.HideDoubaoPiP_1.0.0-arm64.deb
+Size: 9210
+MD5sum: 8d7a1d317edadd775293cb392a4819f1
+SHA1: bcbdad4d5a248ec63965ce48a74fe1ae11533faa
+SHA256: b18778bccb8d7e5d15a6353cf5905af5b8efce89c3bd05808dbf1a83c54808f8
+Section: Tweaks
+Description: Hide only Doubao IME PiP floating window while preserving normal video PiP. Changes from early v2: removes broad SBPIPPegasusAdapter matching, uses conservative multi-signal Doubao detection, avoids hidden=YES, adds PiP internal layout triggers, and release builds do not write log files.
+Author: dada
+Name: HideDoubaoPiP
+
+Package: com.dada.hidedoubaopip
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: dada
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/dada.HideDoubaoPiP_1.0.0-1-arm64.deb
+Size: 8632
+MD5sum: afd17b73e9adecedbca3c1de1e532bfd
+SHA1: 4c971e31b8c4e124b906477b94344f0313761879
+SHA256: 5dde13f78afaf12982c72b49cd670f1c3445ee53dd444029735a1006ad7f1562
+Section: Tweaks
+Description: Hide Doubao PiP edge stash indicator and residual floating window on iOS 16+
+Author: dada
+Name: HideDoubaoPiP
 
 Package: com.dao.appdata
 Version: 1.4.7
