@@ -860,6 +860,22 @@ Description: 给微信添加一些分组过滤。
 Author: baiy <961666883>
 Name: 白衣の小分组
 
+Package: com.baiy.wcgrouping
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: baiy <961666883>
+Installed-Size: 36796
+Depends: mobilesubstrate
+Filename: debs/baiy.小分组-2.0.4-arm64.deb
+Size: 12867412
+MD5sum: fd164f9cd5e638628c64766ec8f18f18
+SHA1: 34b07c55cd99dfa6edea886352a5e8e5d0fb5e7d
+SHA256: ad1e1b73d1d97363d0e64b730714d34dca0b53ecc5a2163fd893cba823695618
+Section: Tweaks
+Description: 给微信添加一些分组过滤。
+Author: baiy <961666883>
+Name: 白衣の小分组
+
 Package: com.baiy.wechatfile
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4113,7 +4129,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -4128,7 +4144,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
