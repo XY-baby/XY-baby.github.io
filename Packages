@@ -924,6 +924,22 @@ Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.
 Name: floatingView (授权版)
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 
+Package: com.be-huge.insulation
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 572
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/be-huge.insulation_0.0.3-arm64.deb
+Size: 78256
+MD5sum: 6963ff2fd19d0eb68af15d2fa0706e0d
+SHA1: 4f0dd05cca9e51e517a0623e45875a3576d0f069
+SHA256: 85518dd38d0c17cadb8b9d874e3771effcda1c421b5a3aaec024bfcf7a0bfd07
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Author: be-huge
+Name: insulation
+
 Package: com.binglan.kzmh
 Version: 1.0.1
 Architecture: iphoneos-arm64
