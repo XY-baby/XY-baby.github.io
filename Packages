@@ -3938,6 +3938,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: 米家优化
 
+Package: com.wkk.wcfrostedglass
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/susu.WCFrostedGlass-1.0.5-arm64.deb
+Size: 4864
+MD5sum: 3e8445cee2ee02a4b97ccfb6f692514c
+SHA1: 84e3e724850752b233b66bf0cf514f3455f5e66c
+SHA256: 99f312b508aab317ec6a511b8009548ba1804e8df799d52ce361e47f74a990b2
+Section: Tweaks
+Description: 微信界面上下添加毛玻璃效果。
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: SuWCFrostedGlass
+
 Package: com.xuuz.cadvip
 Version: 0.0.1
 Architecture: iphoneos-arm64
