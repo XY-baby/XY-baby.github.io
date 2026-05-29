@@ -941,6 +941,22 @@ Name: floatingView (授权版)
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 
 Package: com.be-huge.insulation
+Version: 0.0.13
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 652
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/be-huge.insulation_0.0.13-arm64.deb
+Size: 96948
+MD5sum: 01e61ed3dd363ccd1e913d4778648513
+SHA1: 3b76cb292636808d351405e7f2eb3660b09a19e4
+SHA256: fb5a7f919e645c9b4cc1ee02938b7396b9a2d36c75cf3ac935471e543012c742
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Author: be-huge
+Name: insulation
+
+Package: com.be-huge.insulation
 Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: be-huge
@@ -2039,6 +2055,23 @@ Section: Tweaks
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
 Author: colorBlack
 Name: Necromancy
+
+Package: com.netskao.ibispaintxcrack
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 480
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao.ibispaintxcrack_1.1-1-arm64.deb
+Size: 172384
+MD5sum: a2fbc3cf76051d33ce326e6cf6b7ad41
+SHA1: 0d32344e7da47cf9cc213325329f9ad8ba41bc1a
+SHA256: fc05e570b7e727f4169862a27f35d9627fc01c5ed704d4e662594ce6452099f6
+Section: Tweaks
+Description: 爱笔思画X解锁高级功能
+Author: Netskao
+Name: 爱笔思画X Crack
+Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ibispaintxcrack
 
 Package: com.netskao.swiftgramcrack
 Version: 1.1-7
