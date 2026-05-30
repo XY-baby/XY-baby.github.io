@@ -1182,6 +1182,22 @@ Description: Disable Splash Ads in Baidu Map.
 Author: colorblack
 Name: BaiduMapAdBlock
 
+Package: com.colorblack.bottomx
+Version: 0.2.62
+Architecture: iphoneos-arm64
+Maintainer: Color Black
+Installed-Size: 1928
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/colorblack.Bottom-x-0.2.62-arm64.deb
+Size: 499410
+MD5sum: 80537d0612618364125b76f91c1db5d7
+SHA1: 5004eb377c090a18ace48c9b1bb26890db07a3ef
+SHA256: 5f1241be298ab909ba3f0a9c2662bf5e5b0e59ac98891cba0a9b563430a5cf8c
+Section: Tweaks
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Author: Color Black
+Name: Bottom-x
+
 Package: com.colorblack.dongchedinoad
 Version: 1.0.0-4+debug
 Architecture: iphoneos-arm64
