@@ -3888,22 +3888,6 @@ Description: WXKeyboardUIHook
 Author: TiaoTiao
 Name: WXKeyboardUIHook
 
-Package: com.tombstonepro.tweak
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: colorBlack
-Installed-Size: 596
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/color.Necromancy_1.0.4-arm64.deb
-Size: 35776
-MD5sum: 17d9b23e3222d3b24d2ffff0d795c7c6
-SHA1: 253a9a0e5e098902e76c164919670922a48ea184
-SHA256: 5f645cac3d3090ac30773ecbea07f8fa902a14cc4b49eaf49427815dc21501e9
-Section: Tweaks
-Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。
-Author: colorBlack
-Name: Necromancy
-
 Package: com.wkk.lynxtwo
 Version: 2.5.4
 Architecture: iphoneos-arm64
