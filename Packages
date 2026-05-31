@@ -3920,6 +3920,23 @@ Description: WXKeyboardUIHook
 Author: TiaoTiao
 Name: WXKeyboardUIHook
 
+Package: com.wkk.insulation
+Version: 0.0.18
+Architecture: iphoneos-arm64
+Maintainer: be-huge/灰灰
+Installed-Size: 636
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/behuge.insulation-0.0.18-arm64.deb
+Size: 107104
+MD5sum: 14e4b66ffe8edf3675d875149dc536b2
+SHA1: c5c3eed60f9a9392f9ff87fc970913be5b3b08da
+SHA256: 57b0e93ef267361b2aca5f69bf78e2fdad0fdaf3aadd4077fc45ca75aee4a114
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Author: be-huge/灰灰
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: insulation
+
 Package: com.wkk.lynxtwo
 Version: 2.5.4
 Architecture: iphoneos-arm64
