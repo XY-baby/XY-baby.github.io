@@ -940,6 +940,70 @@ Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.
 Name: floatingView (授权版)
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 
+Package: com.be-huge.insulation
+Version: 0.0.13
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 704
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/behuge.insulation-0.0.13-arm64.deb
+Size: 107012
+MD5sum: a32d55fe950bb4eb9b76b0833c1b480e
+SHA1: 72459230821a66c81c325cfc2e32a62c931983fb
+SHA256: 2045b5643539eb78c3979b8259aa1cfc3c5aa64baae26b10bf47bd6c2196187e
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Author: be-huge
+Name: insulation
+
+Package: com.be-huge.insulation
+Version: 0.0.18-1
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 704
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/behuge.insulation-0.0.18-1-arm64.deb
+Size: 108172
+MD5sum: f355b26a4100ab14bbc4e05af65aaada
+SHA1: b3abc7ff856527f0f42607c5b49ad823c876b302
+SHA256: 0a25e296cd10e0fb65534eb9394a7622dc16bf48ab36034ee59180c9ffd23962
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
+Package: com.be-huge.insulation
+Version: 0.0.18-3
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 704
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/behuge.insulation-0.0.18-3-arm64.deb
+Size: 110860
+MD5sum: 0188355e7f4eb56eb45294996c93d948
+SHA1: 3442e9e93795b5068ecd491cea8a5f91eb26664d
+SHA256: 367872e34d1a63842471bd118eb2f142d1a3e72a32baf8b5b8e19be856292348
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
+Package: com.be-huge.insulation
+Version: 0.1.20-End
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/behuge.insulation-0.1.20-End-arm64.deb
+Size: 112770
+MD5sum: 5acd0627f93a1b2d4e92d269cef078cf
+SHA1: c2605794c6dfb0a4b04f05bf4e379586a7196988
+SHA256: 6285947c395a1a29792aebbe04a089427bdf659227c8be5217b000dce8e5df1e
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
 Package: com.binglan.kzmh
 Version: 1.0.1
 Architecture: iphoneos-arm64
