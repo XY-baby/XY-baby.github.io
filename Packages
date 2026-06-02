@@ -4295,6 +4295,22 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
+Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
+Size: 88706
+MD5sum: 5bacc423431ce022275f0d42678ce177
+SHA1: e2abf2288da2ffb74967930f65c362e77519634c
+SHA256: 8297277bb3967504e27bfd2fdcf9ca117eb92852ea1ef2e03b0e47a60a7e9af0
+Section: Tweaks
+Description: 朋友需要，如有传播请立刻卸载！
+Author: ylr
+Name: 威锋广而告之精简
+
+Package: com.ylr.weifengadclean
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: ylr
+Installed-Size: 492
+Depends: mobilesubstrate
 Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
 Size: 88706
 MD5sum: 5bacc423431ce022275f0d42678ce177
