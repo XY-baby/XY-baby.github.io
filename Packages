@@ -1342,6 +1342,38 @@ Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
 Author: colorblack
 Name: Liantongzhijia-NoAd
 
+Package: com.colorblack.pan123noads
+Version: 1.0.17-1+debug
+Architecture: iphoneos-arm64
+Maintainer: ColorBlack
+Installed-Size: 532
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/colorblack.123云盘_1.0.12-1-debug-arm64.deb
+Size: 74438
+MD5sum: 4236fb87713ac695da119ec735c691b0
+SHA1: 2ab3a3bbdd9f373b0c5fd57463bcb19fb88f4ceb
+SHA256: a39f7a9cc94aee70ad555b60c1a46d66bdccf11367126a797ed171085cfcefb5
+Section: Tweaks
+Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：205928931
+Author: ColorBlack
+Name: 123PanNoAds
+
+Package: com.colorblack.tencentguanjia.nosplash
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.腾讯手机管家_1.0.3-arm64.deb
+Size: 9682
+MD5sum: e0761655a93a9cff2aa766fab72a8783
+SHA1: 64afd5afcff887fd5e3b73a7b7194cee83e94c2f
+SHA256: 2251a8add498219b3a163e7e6ca14b4573abc23bcae79edd93d77070432e1b76
+Section: Tweaks
+Description: 去除腾讯手机管家开屏广告
+Author: colorblack
+Name: TencentGuanjia-NoSplash
+
 Package: com.colorblack.xcfnoad
 Version: 1.0.0-9+debug
 Architecture: iphoneos-arm64
