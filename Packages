@@ -1020,6 +1020,22 @@ Description: 解除温控，一切从简即可。代码来自开源项目：http
 Author: be-huge & doimty
 Name: insulation
 
+Package: com.be-huge.insulation
+Version: 0.1.31
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 628
+Depends: firmware (>= 15.0)
+Filename: debs/behuge.insulation_0.1.31-arm64.deb
+Size: 52952
+MD5sum: fb84baa67f83d6243b6632756b5672b1
+SHA1: 7e66bd2e31c46c7ad50cfd8de8e066f1cb08a77c
+SHA256: ef4fb7048425c53ea5d8e8a37b4b92c2a67482de215c48c18cd93b4b97e3635c
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
 Package: com.binglan.kzmh
 Version: 1.0.1
 Architecture: iphoneos-arm64
