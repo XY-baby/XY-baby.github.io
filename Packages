@@ -1036,6 +1036,22 @@ Description: 解除温控，一切从简即可。代码来自开源项目：http
 Author: be-huge & doimty
 Name: insulation
 
+Package: com.be-huge.insulation
+Version: 0.1.31.1
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 628
+Depends: firmware (>= 15.0)
+Filename: debs/behuge.insulation-0.1.31.1-arm64.deb
+Size: 53280
+MD5sum: 7c3ae145bb0aa61168580cad1036dfc9
+SHA1: a7c630165f1f0653c65a45b5ec4ef77b99195404
+SHA256: 62ae1483ea75ceed231ce6ab16c68ea17a175123a4117582df52b6ca73e2eb64
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
 Package: com.binglan.kzmh
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4095,23 +4111,6 @@ Section: Tweaks
 Description: WXKeyboardUIHook
 Author: TiaoTiao
 Name: WXKeyboardUIHook
-
-Package: com.wkk.insulation
-Version: 0.0.18
-Architecture: iphoneos-arm64
-Maintainer: be-huge/灰灰
-Installed-Size: 636
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/behuge.insulation-0.0.18-arm64.deb
-Size: 107104
-MD5sum: 14e4b66ffe8edf3675d875149dc536b2
-SHA1: c5c3eed60f9a9392f9ff87fc970913be5b3b08da
-SHA256: 57b0e93ef267361b2aca5f69bf78e2fdad0fdaf3aadd4077fc45ca75aee4a114
-Section: Tweaks
-Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
-Author: be-huge/灰灰
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: insulation
 
 Package: com.wkk.lynxtwo
 Version: 2.5.4
