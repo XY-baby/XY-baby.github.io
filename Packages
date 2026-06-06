@@ -1230,6 +1230,22 @@ Icon: https://axs66.github.io/pro/icon/trollopenjb.png
 Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
+Package: com.colorblack.amap.nosplashad
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/colorblack.高德地图_1.0.1-arm64.deb
+Size: 6788
+MD5sum: cacb1a6e4c09bda5f27e0a83a016a1e9
+SHA1: 6b22503b980e392cfd2fbf9a238886cd2112c803
+SHA256: a9be994cf52dbbf5d8d435df5fe8830c82da4c2ffc6c0b3f7ee8a98bf48c31a3
+Section: Tweaks
+Description: 去掉高德开屏广告、去掉中间升级弹窗  QQ群 205928931
+Author: colorblack
+Name: Gaode-NoAd
+
 Package: com.colorblack.baidumapadblock
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm64
@@ -1357,6 +1373,22 @@ Section: Tweaks
 Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
 Author: colorblack
 Name: Liantongzhijia-NoAd
+
+Package: com.colorblack.meituanwaimai.nosplashad
+Version: 1.0.14
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/colorblack.美团外卖_1.0.14-arm64.deb
+Size: 9144
+MD5sum: fabad05f0ea2fdcb176ef5ce54af710a
+SHA1: faf3e61c48d0bde5ecbffe68799a5dd627214ba9
+SHA256: 8e0308d953077a4b1b35866a1946203d4a111e363b7dddb2e6b85f0aa8aa09bf
+Section: Tweaks
+Description: 美团外卖去启动屏广告- QQ 群：205928931
+Author: colorblack
+Name: Meituan_waimai_NoAd
 
 Package: com.colorblack.pan123noads
 Version: 1.0.17-1+debug
