@@ -2110,6 +2110,22 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Author: iosdump
 Name: Zone
 
+Package: com.iosdump.zone
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 932
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iosdump.Zone_1.0.1-arm64.deb
+Size: 153564
+MD5sum: 4df6e3c26c010e20b543667024dc9f74
+SHA1: 8079fbf05e32a15fd82ec0697514bae74e983298
+SHA256: 4b2af141184d5d3db913831282c653bed5c7b36284cbbe4712d6aaea04aa10c5
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
 Package: com.julioverne.spotilife
 Version: 1.8
 Architecture: iphoneos-arm64
