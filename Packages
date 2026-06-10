@@ -1671,6 +1671,25 @@ Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64
 Maintainer: huami
+Installed-Size: 2216
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.2-9_1661-arm64.deb
+Size: 466464
+MD5sum: b1d086f8e5dc86e9cfe3521dcd4ba621
+SHA1: 6b1d7324fa97f808d207a0e6098ce00d54e1bdc3
+SHA256: 5701846db612d8d8f58ff959b9810d2cc2ec34a7f75704e95ee0bbc1f5ae45c4
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-9
+Architecture: iphoneos-arm64
+Maintainer: huami
 Installed-Size: 2184
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/huami.dyyy_2.2-9_1657-arm64.deb
@@ -4487,7 +4506,7 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
-Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
+Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
 Size: 88706
 MD5sum: 5bacc423431ce022275f0d42678ce177
 SHA1: e2abf2288da2ffb74967930f65c362e77519634c
@@ -4503,7 +4522,7 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
-Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
+Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
 Size: 88706
 MD5sum: 5bacc423431ce022275f0d42678ce177
 SHA1: e2abf2288da2ffb74967930f65c362e77519634c
@@ -4518,7 +4537,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -4533,7 +4552,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -4696,6 +4715,24 @@ Size: 1786192
 MD5sum: 44a6409250d05a930472b79a42577270
 SHA1: 7e9c483eb4cd980a677526154a58e186a70ef292
 SHA256: 29258cf9b2ddd7c9ffe741dee72ff566849af8495644c6d711d1bfc2d5a57944
+Section: Tweaks
+Description: 自用
+Author: 𝙓
+Name: 小红薯
+
+Package: xhs.x
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: 𝙓
+Installed-Size: 2592
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/x.xhs_1.2.1-arm64.deb
+Size: 800988
+MD5sum: 2687bac4918c65c9518e6cdd338d1ab2
+SHA1: 42407dd59033dd7152f9c346c8efac622d7da5c5
+SHA256: c3f898b62b42c8654b6ef837b8712fd9dc36c051ba18dea27917d0d8ebbb8059
 Section: Tweaks
 Description: 自用
 Author: 𝙓
