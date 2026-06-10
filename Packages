@@ -1599,6 +1599,23 @@ Description: 让你的设备免受 DarkSword/Coruna 攻击！针对 WebContent �
 Author: roothide
 Name: lockdown(rootless)
 
+Package: com.doimty.promotion
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 252
+Depends: mobilesubstrate
+Filename: debs/doymty.ProMotion 120Hz_1.0.6-arm64.deb
+Size: 42436
+MD5sum: 180c317e5230111583e0f38e3a09ef46
+SHA1: fb1aebf799bfac54f09c28b8b33e2a3f2c0b26b0
+SHA256: c1caca0301f3c716a28ce32fabea13ad057f91182c6e2343eac6c657aed334e7
+Section: Tweaks
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
+
 Package: com.duo.themelab
 Version: 1.6.1
 Architecture: iphoneos-arm64
