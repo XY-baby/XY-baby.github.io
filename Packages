@@ -1068,6 +1068,22 @@ Description: 解除温控，一切从简即可。代码来自开源项目：http
 Author: be-huge & doimty
 Name: insulation
 
+Package: com.be-huge.insulation
+Version: 0.1.35.50
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 628
+Depends: firmware (>= 15.0)
+Filename: debs/behuge.insulation_0.1.35.50-arm64.deb
+Size: 51370
+MD5sum: bbb8240688f6cde2c6b81c94053e3760
+SHA1: 1708805ffef5c4470330169f6396bce798abd5e7
+SHA256: 63965e544b200bc6d39992cc59244be017e2885041a325e5584fd4ca182f9311
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
 Package: com.binglan.kzmh
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4519,7 +4535,7 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
-Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
+Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
 Size: 88706
 MD5sum: 5bacc423431ce022275f0d42678ce177
 SHA1: e2abf2288da2ffb74967930f65c362e77519634c
@@ -4535,7 +4551,7 @@ Architecture: iphoneos-arm64
 Maintainer: ylr
 Installed-Size: 492
 Depends: mobilesubstrate
-Filename: debs/ylr.威锋去广告_1.5.5-arm64.deb
+Filename: debs/ylr.weifengadclean_1.5.5-arm64.deb
 Size: 88706
 MD5sum: 5bacc423431ce022275f0d42678ce177
 SHA1: e2abf2288da2ffb74967930f65c362e77519634c
@@ -4550,7 +4566,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -4565,7 +4581,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
