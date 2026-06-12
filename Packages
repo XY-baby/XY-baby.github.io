@@ -2474,6 +2474,44 @@ Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除�
 Author: Netskao
 Name: Swiftgram Crack
 
+Package: com.newbie.ioscopy
+Version: 1.5.0-8+debug
+Architecture: iphoneos-arm64
+Maintainer: newbie and Codex
+Installed-Size: 2516
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: me.tomt000.copylog
+Replaces: me.tomt000.copylog
+Provides: me.tomt000.copylog
+Filename: debs/newbie.ioscopy_1.5.0-8+debug-arm64.deb
+Size: 415090
+MD5sum: 74b0597202ad4f09dc60f0d7d9dd8b84
+SHA1: b40b66dea3413046fa847188c929065d746598d1
+SHA256: fd7d7b7c7deac882a1b2494ab706452f74fdccfc1ed64561b6dd36751b698844
+Section: Tweaks
+Description: A modern clipboard history manager for iOS with pasted crash fixes and a beautiful UI.
+Author: newbie and Codex
+Name: iOSCopy
+
+Package: com.newbie.ioscopy
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: newbie and Codex
+Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.opa334.libsandy
+Conflicts: me.tomt000.copylog
+Replaces: me.tomt000.copylog
+Provides: me.tomt000.copylog
+Filename: debs/newbie.ioscopy_1.6.0-arm64.deb
+Size: 199116
+MD5sum: 51e82aa26c76f43473c4263f770ad6a3
+SHA1: 7d0505a14ceb8ce635562b67ec908e85404f028a
+SHA256: 82ab63f35af232bddb977e200d2de6dabdf9c8c83660d3aebc354e457cd269bd
+Section: Tweaks
+Description: A modern clipboard history manager for iOS with pasted crash fixes and a beautiful UI.
+Author: newbie and Codex
+Name: iOSCopy
+
 Package: com.niceios.mrshi-rootless
 Version: 1.0.0.2-235
 Architecture: iphoneos-arm64
