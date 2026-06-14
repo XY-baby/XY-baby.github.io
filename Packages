@@ -1788,6 +1788,22 @@ Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 168
 Depends: mobilesubstrate
+Filename: debs/iosdump.AirDrop-0.0.1-arm64.deb
+Size: 3390
+MD5sum: 79a93b17f1202f6eb669f751a330b80f
+SHA1: f44e503f79593bf7c02ec944fc40ec6caa88ffc0
+SHA256: 776531c56354321c14153dde55b950fd8974275476ea4649dc162c3e099ee038
+Section: Tweaks
+Description: 解除隔空十分钟限制iOS16+
+Author: iosdump
+Name: AirDrop
+
+Package: com.iosdump.airdrop
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
 Filename: debs/iosdump.airdrop_0.0.1-arm64.deb
 Size: 3390
 MD5sum: 79a93b17f1202f6eb669f751a330b80f
