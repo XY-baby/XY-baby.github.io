@@ -1342,22 +1342,6 @@ Description: Disable Splash Ads in Baidu Map.
 Author: colorblack
 Name: BaiduMapAdBlock
 
-Package: com.colorblack.baidumapadblock
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/colorblack.百度地图-arm64.deb
-Size: 4312
-MD5sum: f4669764dfbc945c165bd53fe0f5b26d
-SHA1: 9bc0f748d00f1fb6b1f60cadfaffafbf583f3a1f
-SHA256: 21145f0eb265ccf049df6311dcca371ee7c5fe83636090c5d0305c832bfbba4e
-Section: Tweaks
-Description: Disable Splash Ads in Baidu Map.
-Author: colorblack
-Name: BaiduMapAdBlock
-
 Package: com.colorblack.bottomx
 Version: 0.2.62
 Architecture: iphoneos-arm64
@@ -1438,22 +1422,6 @@ Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
 Author: colorblack
 Name: Dongchedi-NoAd
 
-Package: com.colorblack.dongchedinoad
-Version: 1.0.0-4+debug
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: debs/colorblack.懂车帝-0.2.arm64.deb
-Size: 5052
-MD5sum: db111eb8df335ae7a4b0e00e0339ce72
-SHA1: 9ad97d2d4ac0a3022a997e2151b2f7c72d9c1249
-SHA256: 240497e40377a23857d5b8677803f4d526342e735e357d9b58387665152208d2
-Section: Tweaks
-Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
-Author: colorblack
-Name: Dongchedi-NoAd
-
 Package: com.colorblack.dongfangcaifu.nostartad
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -1492,22 +1460,6 @@ Architecture: iphoneos-arm64
 Maintainer: colorblack
 Installed-Size: 172
 Depends: mobilesubstrate
-Filename: debs/colorblack.虎牙直播-arm64.deb
-Size: 6380
-MD5sum: 446b975ecf54366947291574ef1bf2b1
-SHA1: d4e58b27e66e6aea4ef687a35d60cfa8d2ce1c0c
-SHA256: 05aa5d4cd28f8e6734fff77b923dbcc9e28c52b2c306ce222a339d5edb494638
-Section: Tweaks
-Description: Disable Splash Ads in Huya.
-Author: colorblack
-Name: KiwiNoAd
-
-Package: com.colorblack.kiwinoad
-Version: 1.0.0-2+debug
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 172
-Depends: mobilesubstrate
 Filename: debs/colorblack.虎牙直播_1.0.0-2-arm64.deb
 Size: 6380
 MD5sum: 446b975ecf54366947291574ef1bf2b1
@@ -1525,22 +1477,6 @@ Maintainer: colorblack
 Installed-Size: 172
 Depends: mobilesubstrate
 Filename: debs/colorblack.联通智家_1.0.0-5-arm64.deb
-Size: 6202
-MD5sum: f9c68d9edd2f6e420c09cd0a748b0051
-SHA1: dcf3a2ff3de87d10dc94a4f947e2bd94df912d22
-SHA256: e3b8c87e9e5507d90d2ecddbf4994fa5ac6b00e11bce9825aca4b87dd35b6f8f
-Section: Tweaks
-Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
-Author: colorblack
-Name: Liantongzhijia-NoAd
-
-Package: com.colorblack.liantongzhijianoad
-Version: 1.0.0-5+debug
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: debs/colorblack.联通智家_0.4-arm64.deb
 Size: 6202
 MD5sum: f9c68d9edd2f6e420c09cd0a748b0051
 SHA1: dcf3a2ff3de87d10dc94a4f947e2bd94df912d22
@@ -1645,22 +1581,6 @@ Section: Tweaks
 Description: Disable Splash Ads in Xiachufang.
 Author: colorblack
 Name: XCFNoAd
-
-Package: com.colorblack.youdaoyunbiji
-Version: 0.0.1-11+debug
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: debs/colorblack.有道云笔记-0.10-arm64.deb
-Size: 7870
-MD5sum: 706e3cfd6338f260476a7fa0f597cfc5
-SHA1: 4e17a5ec8fd686d1bb17dc024d750cb9722f280d
-SHA256: 948dee9ba86cddca2513bd1dade5334840f7e40fecc6b67d3fb9ab857e58e8e0
-Section: Tweaks
-Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
-Author: colorblack
-Name: youdaoyunbiji-NoAd
 
 Package: com.colorblack.youdaoyunbiji
 Version: 0.0.1-11+debug
