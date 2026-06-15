@@ -1636,22 +1636,6 @@ Architecture: iphoneos-arm64
 Maintainer: colorblack
 Installed-Size: 176
 Depends: mobilesubstrate
-Filename: debs/colorblack.下厨房_0.8-arm64.deb
-Size: 7376
-MD5sum: 6f2f45a2fc4a7f81754f3b00c2f06e5e
-SHA1: 54b6f331fb322cb5d858e94774e457197e024acf
-SHA256: 205c7db12e9f4bddc57e025e2f314a811bcd7bdaf188f755d91d013f525af191
-Section: Tweaks
-Description: Disable Splash Ads in Xiachufang.
-Author: colorblack
-Name: XCFNoAd
-
-Package: com.colorblack.xcfnoad
-Version: 1.0.0-9+debug
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 176
-Depends: mobilesubstrate
 Filename: debs/colorblack.下厨房1.0.0-9-arm64.deb
 Size: 7376
 MD5sum: 6f2f45a2fc4a7f81754f3b00c2f06e5e
