@@ -4635,6 +4635,21 @@ Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出
 Author: XUUᶻ
 Name: 抖音助手
 
+Package: com.xuuz.gdysvip
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/xuuz.高定素材svip_0.0.1-arm64.deb
+Size: 14576
+MD5sum: 88443cc49ccba8896b61cf53987cb61c
+SHA1: e8e543e9ef9d074e59e4070bed6a4ecd689ce32e
+SHA256: c739f4e05b5bae50489c14a533bcd230b12c664059573d1903a6cdf31831f97e
+Section: Tweaks
+Author: XUUᶻ
+Name: 高定素材大师/雅俗共赏 解锁VIP
+
 Package: com.xuuz.wyyvip
 Version: 0.0.2
 Architecture: iphoneos-arm64
