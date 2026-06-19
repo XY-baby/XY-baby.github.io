@@ -2208,6 +2208,22 @@ Description: 提取与修改 Assets.car 资源 (Filza 插件)
 Author: iosdump
 Name: FilzaCarPlugin
 
+Package: com.iosdump.jumpselect
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iosdump.jumpselect_0.0.3-arm64.deb
+Size: 51098
+MD5sum: 3c53ae62a53379418ba9274294c0bf80
+SHA1: a69d6b688f26795ed35bdd30eaa9840d0a629e36
+SHA256: eec30450acfe0730a4182fd00ca5db666262870d0dbd8db8839779215a7321e4
+Section: Tweaks
+Description: iOS 14-17 App跳转拦截重定向选择器。
+Author: iosdump
+Name: JumpSelect
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm64
