@@ -1582,6 +1582,22 @@ Description: Rootless/RootHide tweak that blocks Tencent Mobile Game Accelerator
 Author: ColorBlack
 Name: TMGA AdBlock
 
+Package: com.colorblack.wetypematerialglass
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/colorblack.微信输入法-毛玻璃效果_1.2.6-arm64.deb
+Size: 21870
+MD5sum: 2f72a78609b03e52c4c047f785cae900
+SHA1: b9e7cc840f7a91bdb3e6fac4a9d8fa61c7aa378d
+SHA256: 2b60a0c10b44fc57983c26f9e1eed84aed569beda671b57f2e5980b8e4360f26
+Section: Tweaks
+Description: 微信输入法启用毛玻璃效果，测试输入法版本号 3.5.0。1.2.6 独立适配浅色 Dock 风格毛玻璃，同时保留 1.2.5 暗黑模式效果。QQ群：205928931
+Author: colorblack
+Name: 微信输入法_毛玻璃效果
+
 Package: com.colorblack.xcfnoad
 Version: 1.0.0-9+debug
 Architecture: iphoneos-arm64
