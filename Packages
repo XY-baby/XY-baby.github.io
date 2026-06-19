@@ -4903,6 +4903,22 @@ Description: 禁止开屏广告、秒过激励广告
 Author: Zuner
 Name: LunaNoAd
 
+Package: com.zuner.lunanoad
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: liwhs
+Installed-Size: 2904
+Depends: mobilesubstrate
+Filename: debs/zuner.lunanoad_1.5-arm64.deb
+Size: 1063870
+MD5sum: 276b623e10ec2a8b9a68704a5ee61e7a
+SHA1: 990ea3f1f22415214a06acbe3ef11323269d66bb
+SHA256: 57865822366573a200570f543a02d1caf66103dde350b0ffe4df8d1fc583d530
+Section: Tweaks
+Description: 禁止开屏广告、秒过激励广告
+Author: Zuner
+Name: LunaNoAd
+
 Package: dylv.liquidass
 Version: 0.0.9a
 Architecture: iphoneos-arm64
