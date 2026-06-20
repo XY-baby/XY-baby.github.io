@@ -1814,6 +1814,25 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY
 
+Package: com.huami.dyyy
+Version: 2.2-9
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2460
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/huami.dyyy_2.2-9_1684-arm64.deb
+Size: 523692
+MD5sum: 9574bf4de9d0dc15198f0ba884d7521e
+SHA1: 43712c8a0aec5f8bba024e35cac655fc7bafc5c1
+SHA256: 6f0cc5bc6bca5f718c76d2840c1ab10f8958a3065e792678a202dda52b5fac30
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
 Package: com.hw.dzyjvip
 Version: 0.0.1
 Architecture: iphoneos-arm64
