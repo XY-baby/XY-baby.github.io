@@ -1550,22 +1550,6 @@ Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：2
 Author: ColorBlack
 Name: 123PanNoAds
 
-Package: com.colorblack.pan123noads
-Version: 1.0.17-2+debug
-Architecture: iphoneos-arm64e
-Maintainer: ColorBlack
-Installed-Size: 532
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/colorblack.123云盘_1.0.17-2-arm64.deb
-Size: 74452
-MD5sum: f019c3c04d20e3f86724a242cdcec1c0
-SHA1: ed883687c00ce4b8f6e8f96dee9dd3555bf0050f
-SHA256: 6a72bac08e664d47537ee869cfbd54f4ef26ea40fc865f8e76f6db4cf85c6019
-Section: Tweaks
-Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：205928931
-Author: ColorBlack
-Name: 123PanNoAds
-
 Package: com.colorblack.shouji360noad
 Version: 0.0.3
 Architecture: iphoneos-arm64
