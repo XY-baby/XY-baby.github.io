@@ -2742,6 +2742,22 @@ Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
 Name: MrShi(Rootless)
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
 
+Package: com.plugingroup
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 228
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/hang.插件收纳分组_0.0.1-4-arm64.deb
+Size: 50570
+MD5sum: 04742fd212065b15d21249961de9ffe2
+SHA1: 28feb9e89cf168ea75af0b436eab351b157ab67c
+SHA256: 2a808af62634658e026cc27d394dd95e6affa6f36e9d58f7c87dedbe75666c43
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: hang
+Name: plugingroup
+
 Package: com.removewidgetbg
 Version: 2.0
 Architecture: iphoneos-arm64
