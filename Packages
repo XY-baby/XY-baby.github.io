@@ -1566,6 +1566,22 @@ Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：2
 Author: ColorBlack
 Name: 123PanNoAds
 
+Package: com.colorblack.shouji360noad
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/colotblack.360手机卫士_0.0.3-arm64.deb
+Size: 23124
+MD5sum: 07797b1704fa775810ae35bb76b66915
+SHA1: 71517d2e8918846d878fa2fe9d4bf82fe874999f
+SHA256: f05563821ec3b3522f93843348ee431bc7f0cb0846dd4389e3e0f03a49abf049
+Section: Tweaks
+Description: 去掉 360 手机卫士开屏广告、首页广告位和一些不必要的天气及其他模块，保留了主要功能。 QQ群 205928931
+Author: colorblack
+Name: 360Shouji-NoAd
+
 Package: com.colorblack.tencentguanjia.nosplash
 Version: 1.0.3
 Architecture: iphoneos-arm64
