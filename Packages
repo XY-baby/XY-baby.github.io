@@ -1598,6 +1598,22 @@ Description: Rootless/RootHide tweak that blocks Tencent Mobile Game Accelerator
 Author: ColorBlack
 Name: TMGA AdBlock
 
+Package: com.colorblack.wetypecolorgoogle
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 112
+Depends: mobilesubstrate
+Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.0.9-arm64.deb
+Size: 20184
+MD5sum: b094acfec3c85dfd500f44db6ca4fd97
+SHA1: 0f7c86a61fc17247ab82e7c1b158bf18af46d070
+SHA256: 61ae59eb0dd737976432a79a01b365c5773b8169189eb9d8f57a5fff9b11608e
+Section: Tweaks
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Author: colorblack
+Name: 微信输入法_Google配色
+
 Package: com.colorblack.wetypematerialglass
 Version: 1.2.6
 Architecture: iphoneos-arm64
