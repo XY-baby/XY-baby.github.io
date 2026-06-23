@@ -1811,6 +1811,22 @@ Author: fiore
 Icon: https://www.susubaby.top/images/jisuanqi.png
 Name: CalculatorHistory
 
+Package: com.hang.biaoqingg
+Version: 0.0.1-48+debug
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/hang.表情自定义_0.0.1-48-arm64.deb
+Size: 18570
+MD5sum: 8a13793a6c54e6d501d57771edb4ff3b
+SHA1: 4ebad97ed1f582dfb782d9a20f1e72cdd19be55a
+SHA256: 9b7e7324225b063aa06cb3b632376fdacf3853aa35e861b1c48872193cdf4e06
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: hang
+Name: 航の表情自定义
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64
