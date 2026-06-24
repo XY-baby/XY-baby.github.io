@@ -1666,13 +1666,13 @@ Package: com.colorblack.wetypecolorgoogle
 Version: 1.1.3
 Architecture: iphoneos-arm64
 Maintainer: colorblack
-Installed-Size: 128
+Installed-Size: 144
 Depends: mobilesubstrate
 Filename: debs/colorblack.微信输入法-Google毛玻璃配色_1.1.3-arm64.deb
-Size: 26566
-MD5sum: a73fa3a5983e94aa27fb47c5ca40b2b0
-SHA1: c762692d7f184cc03efec6ff9f6c4237f55596a4
-SHA256: fe7c68d1cc09730c53af91b0395d2929aec045e1a537a274aea7d2cc7032812a
+Size: 28472
+MD5sum: 78fed79401eecdf156c37b859091ce78
+SHA1: 4e60fe92ac867b650cc8d7aee9fc96212cf0cdb9
+SHA256: 380aec7c69efb6f7c0e080005d0473ce4123c9bf0f8c53425a24ee260f7eb13d
 Section: Tweaks
 Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
 Author: colorblack
