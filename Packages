@@ -2209,6 +2209,22 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.iosdump.appmute
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iosdump.AppMute_0.0.1-arm64.deb
+Size: 11662
+MD5sum: fd12cb6ed8e64c8d4a742a7baa3ed5d7
+SHA1: 902e6316a9fa3dabd104bdbcc051fc0e8c39fbd2
+SHA256: a1ccf6cadb1c1b612693038cb708cdacba217168d72bc3e15a26d79baab87d93
+Section: Tweaks
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Author: iosdump
+Name: AppMute
+
 Package: com.iosdump.customcallbg
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -2335,6 +2351,22 @@ Section: Tweaks
 Description: 提取与修改 Assets.car 资源 (Filza 插件)
 Author: iosdump
 Name: FilzaCarPlugin
+
+Package: com.iosdump.hotaiqingli
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/iosdump.后台一键清理_0.0.2-arm64.deb
+Size: 24524
+MD5sum: 4ae24e99c47a1d4043ce14a178769b93
+SHA1: f62ecd2c2b9c9b5cd6ca368551c746f93209f85e
+SHA256: 0f2d96e67e02b7f6add32e5d058b3cca58dd116751cd561516611f4c122f7988
+Section: Tweaks
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Author: iosdump
+Name: 后台一键清理
 
 Package: com.iosdump.jumpselect
 Version: 0.0.3
