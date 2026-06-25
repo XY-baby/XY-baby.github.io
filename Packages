@@ -2209,6 +2209,23 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.iosdump.appdata
+Version: 2.2.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/iosdump.appdata_2.2.0-arm64.deb
+Size: 435392
+MD5sum: d4003ef4341344dcdfddfcff9d200082
+SHA1: bcb068531118bf9e21a83c41cd92c02d2174deeb
+SHA256: f156e243f84ec937495b58e70c9c362fed7b04f479f4736cb780146d5d7b8f45
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
 Package: com.iosdump.appmute
 Version: 0.0.1
 Architecture: iphoneos-arm64
