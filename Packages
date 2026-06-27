@@ -1342,6 +1342,54 @@ Icon: https://axs66.github.io/pro/icon/trollopenjb.png
 Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
+Package: com.colorblack.alinfcwakefix
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 432
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/colorblack.支付宝碰一碰优化_0.0.5-arm64.deb
+Size: 44856
+MD5sum: 866519168644c58136561ca1296215f4
+SHA1: 81eed234ab9724e081d90c5979e979f086f8642c
+SHA256: 55a2fa14463440ddc7e2042be7f19d330cffefb4b135dbf101fa1f87db725281
+Section: Tweaks
+Description: 支付宝碰一碰支付功能优化，改善碰一碰没反应、反应过慢问题。有可能也无效果。仅 beta测试版。QQ群：205928931
+Author: colorblack
+Name: 支付宝碰一碰优化
+
+Package: com.colorblack.alinfcwakefix
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 496
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/colorblack.支付宝碰一碰优化_0.0.6-arm64.deb
+Size: 57366
+MD5sum: 4165ae214879b78f7b17fcedcb722df5
+SHA1: 0e5dda1ebba34b3dd18d80145135cf9598b9bf35
+SHA256: 118a37b2be51cba6d3530696acd1b8eb536cc97d11244c7325d2a4d09eb6ff95
+Section: Tweaks
+Description: 支付宝碰一碰支付功能优化，改善碰一碰没反应、反应过慢问题。有可能也无效果。仅 beta测试版。QQ群：205928931
+Author: colorblack
+Name: 支付宝碰一碰优化
+
+Package: com.colorblack.alinfcwakefix
+Version: 0.0.7
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 512
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/colorblack.支付宝碰一碰优化_0.0.7-arm64.deb
+Size: 62414
+MD5sum: 093daf41d6314e5932fd83927413b62d
+SHA1: a0eecef63ecbd1181b7fe182a37f5b066ed51729
+SHA256: 22a047c0907d2dd7f731a87b34d3cc0341472c79c78ada8855c55ad221e72955
+Section: Tweaks
+Description: 支付宝碰一碰支付功能优化，改善碰一碰没反应、反应过慢问题。有可能也无效果。仅 beta测试版。QQ群：205928931
+Author: colorblack
+Name: 支付宝碰一碰优化
+
 Package: com.colorblack.amap.nosplashad
 Version: 1.0.1
 Architecture: iphoneos-arm64
