@@ -1132,6 +1132,38 @@ Description: 解除温控，一切从简即可。代码来自开源项目：http
 Author: be-huge & doimty
 Name: insulation
 
+Package: com.binglan.dynamicfx
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/binglan.灵动岛背景_1.0.7-arm64.deb
+Size: 73168
+MD5sum: c98336dfe8dec7902e2cb19b9d4ab9c3
+SHA1: 09cfc11fc1753466dd0a190cd34ca4a86a783c19
+SHA256: 80ce372903e4479a66bf09ec0d4fdc565fcc1c85ece2f32719e2dc4ea72e5046
+Section: Tweaks
+Description: 灵动岛背景？
+Author: 冰蓝
+Name: DynamicFX
+
+Package: com.binglan.kongzhidiy
+Version: 2.3.3-end
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Installed-Size: 3028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/binglan.控制中心美化_2.3.3-end-arm64.deb
+Size: 674584
+MD5sum: 546334e75c474867ef5356a6585bff10
+SHA1: a0081bf5ad537864ed6010bfd4b1b3c78841fd02
+SHA256: 2965455ebb602bb3567d842c738da10af0d59c9c77ce9e02132bb03724525fb3
+Section: Tweaks
+Description: 神秘功能。
+Author: binglan
+Name: 控制中心美化
+
 Package: com.binglan.kzmh
 Version: 1.0.1
 Architecture: iphoneos-arm64
