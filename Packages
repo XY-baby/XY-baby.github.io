@@ -5400,6 +5400,24 @@ Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出
 Author: XUUᶻ
 Name: 抖音助手
 
+Package: com.xuuz.douyinhelper
+Version: 2.2-4
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 17544
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/xuuz.douyinhelper_2.2-4-arm64.deb
+Size: 6789108
+MD5sum: 927aeb8e01d8ae0beff340efc3f71e07
+SHA1: 23d1dc4f8b1c4f83180b232dfe576f1fc046163c
+SHA256: 74d7f33081c8fdd08f685de176ef1b260fbbe0645dddcc70678da2c163abe436
+Section: Tweaks
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Author: XUUᶻ
+Name: 抖音助手
+
 Package: com.xuuz.gdysvip
 Version: 0.0.1
 Architecture: iphoneos-arm64
