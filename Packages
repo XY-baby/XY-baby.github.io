@@ -1391,6 +1391,22 @@ Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
 Package: com.colorblack.alinfcwakefix
+Version: 0.0.35
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/colorblack.支付宝助手_0.0.35-arm64.deb
+Size: 334078
+MD5sum: 18848caec3fbf49bf13a279f321f42e1
+SHA1: 898affe8569637fc0d86242ddc5d49794fd82777
+SHA256: 88d393422ba87011255d42ddce4e5f7aa3171201288bd3907c9c71ad009ddf26
+Section: Tweaks
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Author: colorblack
+Name: 支付宝助手
+
+Package: com.colorblack.alinfcwakefix
 Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: colorblack
