@@ -1340,6 +1340,22 @@ Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
 
+Package: com.charlieleung.keyboardeffecthider
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/charlieleung.隐藏键盘毛玻璃_1.0.0-arm64.deb
+Size: 7172
+MD5sum: de00a2451792b5722584fe58b9eacab3
+SHA1: ee5d6d3cf816f38539980a3e819d1e1fd4dc19b3
+SHA256: d616e00cfde450a5ccd7538d4e48bcf1683a65316c723ba006f047047997ebde
+Section: Tweaks
+Description: 隐藏原生键盘部分毛玻璃
+Author: Charlie Leung
+Name: KeyboardEffectHider
+
 Package: com.charlieleung.trollopenjb
 Version: 1.2.8
 Architecture: iphoneos-arm64
