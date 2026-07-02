@@ -1407,6 +1407,22 @@ Author: colorblack
 Name: 支付宝助手
 
 Package: com.colorblack.alinfcwakefix
+Version: 0.0.36
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/colorblack.支付宝助手_0.0.36-arm64.deb
+Size: 333962
+MD5sum: ba5587b62832e412dca8a47138c30b31
+SHA1: 234fb4d1374ea882ba6a3b93e06cfc7c3503229b
+SHA256: 0fb6d3b946cac6fa5e6d6f1b45370034d6e8d948d0ceb57efd2781d0d28321de
+Section: Tweaks
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Author: colorblack
+Name: 支付宝助手
+
+Package: com.colorblack.alinfcwakefix
 Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: colorblack
